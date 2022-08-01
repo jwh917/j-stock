@@ -1,8 +1,6 @@
 #lightDark{
   position:fixed;
   top:0;
-  /* right:0; */
-
 }
 
 .adsCarousel{
@@ -12,5 +10,24 @@
   background-color: gray;
   margin: auto;
   width: 100%;
+}
 
+.categoryBadges{
+  position:relative; 
+  top: 115px;
+  margin: auto;
+  width: 100%;
+  left: 30px;
+}
+
+.categoryGrid{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px;
+}
+
+.categoryGrid img{
+  width: 50px;
+  height: 50px;
 }
