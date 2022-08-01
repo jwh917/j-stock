@@ -1,0 +1,48 @@
+{
+  "sneakers": [
+    {
+      "id": 1,
+      "name": "Jordan 11",
+      "brand": "Jordan",
+      "color": "Cool Grey",
+      "colorWay": "Medium Grey/Multi- Color/Multi-Color",
+      "buy": 211,
+      "sell":347,
+      "price": 278,
+      "retailPrice": 225,
+      "releaseDate": "12/31/22",
+      "productDetails": "Since its debut in 2001, the Air Jordan 11 Cool Grey",
+      "itemUrl": "https://cdn.flightclub.com/1500/TEMPLATE/248952/1.jpg"
+    }
+  ],
+  "apparel": [
+    {
+      "id": 1,
+      "name": "Kith Marvel Spider-Man New York City Vintage Tee",
+      "brand": "Kith",
+      "kind": "Shirt",
+      "color": "White",
+      "buy": 114,
+      "sell": 125,
+      "price": 115,
+      "retailPrice": 72,
+      "releaseDate": "07/15/2022",
+      "itemUrl": "https://images.stockx.com/images/Kith-Marvel-Spider-Man-New-York-City-Vintage-Tee-White.jpg?fit=fill&bg=FFFFFF&w=480&h=320&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1657893744&q=75"
+    }
+  ],
+  "electronics": 
+    {
+      "id": 1,
+      "name": "Sony PS5",
+      "brand": "Sony",
+      "color": "White",
+      "buy": 658,
+      "sell": 620,
+      "price": 656,
+      "retailPrice": 500,
+      "releaseDate": "11/12/20",
+      "productDetails": "Experience next-gen gaming with the The SonyPlaystation 5 Blu-Ray Edition console.",
+      "memory": "1TB",
+      "itemUrl": "https://i5.walmartimages.com/asr/2d7d7f63-fbd3-4892-a633-f371b7c948a5.e3656c58c60bfd68e74804868cb51b55.png?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+    }
+}

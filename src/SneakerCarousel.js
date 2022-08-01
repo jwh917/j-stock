@@ -1,18 +1,13 @@
 import React, {useState, useEffect, useContext } from "react";
 import { ThemeContext } from "./theme";
-
+import ItemCard from "./ItemCard";
 import './App.css';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import Carousel from 'react-bootstrap/Carousel';
 // import Carousel from 'react-scrolling-carousel';
 // import ReactSwipe from 'swipe-js-iso';
 
 import Stack from 'react-bootstrap/Stack';
-
-
-
-
 
 
 
@@ -33,9 +28,14 @@ function SneakerCarousel() {
   }, []);
 
     
-
-
-
+  const sneakersDisplayed = sneakers.map((sneaker) => {
+    return(
+      <ItemCard
+      key={sneaker.id}
+      items={sneaker} 
+      />
+    )
+  })
   
 
   return (
@@ -43,8 +43,8 @@ function SneakerCarousel() {
       <h2 style={{"color":headerStyle}}>Trending Sneakers</h2>
       <br></br>
       <Stack direction="horizontal" gap={3}>
-        
-       </Stack>
+        {sneakersDisplayed}
+      </Stack>
        <br></br>
        <br></br>
 
