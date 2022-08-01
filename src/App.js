@@ -7,6 +7,7 @@ import SneakerCarousel from "./SneakerCarousel";
 import BrandsBadges from "./BrandsBadges";
 import ApparelCarousel from "./ApparelCarousel";
 import ElectronicsCarousel from "./ElectronicsCarousel";
+import NavBar from "./NavBar";
 
 
 
@@ -36,11 +37,25 @@ function App() {
       <AdsCarousel />
       <ElectronicsCarousel/>
 
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
 
-
-
+      Julien H.™
+      <NavBar/>
 
     </main> 
+      // Product page
+      // Search page
+      // Profile page
+      // Car page
+      // Home Page
   );
 }
 
