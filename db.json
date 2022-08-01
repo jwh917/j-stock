@@ -30,7 +30,7 @@
       "itemUrl": "https://images.stockx.com/images/Kith-Marvel-Spider-Man-New-York-City-Vintage-Tee-White.jpg?fit=fill&bg=FFFFFF&w=480&h=320&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1657893744&q=75"
     }
   ],
-  "electronics": 
+  "electronics": [
     {
       "id": 1,
       "name": "Sony PS5",
@@ -45,4 +45,5 @@
       "memory": "1TB",
       "itemUrl": "https://i5.walmartimages.com/asr/2d7d7f63-fbd3-4892-a633-f371b7c948a5.e3656c58c60bfd68e74804868cb51b55.png?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
     }
+  ]
 }

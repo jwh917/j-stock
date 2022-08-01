@@ -6,7 +6,7 @@ import CategoryBadges from "./CategoryBadges";
 import SneakerCarousel from "./SneakerCarousel";
 import BrandsBadges from "./BrandsBadges";
 import ApparelCarousel from "./ApparelCarousel";
-
+import ElectronicsCarousel from "./ElectronicsCarousel";
 
 
 
@@ -24,6 +24,18 @@ function App() {
       <SneakerCarousel/>
       <BrandsBadges/>
       <ApparelCarousel/>
+
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+
+      <AdsCarousel />
+      <ElectronicsCarousel/>
+
 
 
 

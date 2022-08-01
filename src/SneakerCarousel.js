@@ -39,7 +39,7 @@ function SneakerCarousel() {
   
 
   return (
-    <div className="sneakerCarousel">
+    <div className="itemsCarousel">
       <h2 style={{"color":headerStyle}}>Trending Sneakers</h2>
       <br></br>
       <Stack direction="horizontal" gap={3}>

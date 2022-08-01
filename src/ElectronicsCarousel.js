@@ -3,6 +3,7 @@ import { ThemeContext } from "./theme";
 import ItemCard from "./ItemCard";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+// sneaks
 // import Carousel from 'react-bootstrap/Carousel';
 // import Carousel from 'react-scrolling-carousel';
 // import ReactSwipe from 'swipe-js-iso';
@@ -10,29 +11,31 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Stack from 'react-bootstrap/Stack';
 
 
-function ApparelCarousel() {
+
+
+function ElectronicsCarousel() {
 
   const { theme } = useContext(ThemeContext);
 
   const headerStyle = theme ? "white" : "black"
 
+  const [electronics, setElectronics] = useState([])
 
-  const [apparel, setApparel] = useState([])
 
   useEffect(() => {
-    fetch("http://localhost:3000/apparel")
+    fetch("http://localhost:3000/electronics")
       .then((r) => r.json())
-      .then((apparelData) => setApparel(apparelData));
+      .then((electronicsData) => setElectronics(electronicsData));
   }, []);
 
-    
 
+  console.log(electronics)
 
-  const apparelDisplayed = apparel.map((apparelItem) => {
+  const electronicsDisplayed = electronics.map((electronic) => {
     return(
       <ItemCard
-      key={apparelItem.id}
-      items={apparelItem} 
+      key={electronic.id}
+      items={electronic} 
       />
     )
   })
@@ -41,22 +44,23 @@ function ApparelCarousel() {
 
   return (
     <div className="itemsCarousel">
-      <h2 style={{"color":headerStyle}}>Freatured Apparel</h2>
+      <h2 style={{"color":headerStyle}}>Electronics Spotlight</h2>
       <br></br>
 
       <Stack direction="horizontal" gap={3}>
 
-        {apparelDisplayed}
+        {electronicsDisplayed}
 
        </Stack>
 
       {/* <Carousel/> */}
 
-
+      <br></br>
+      <br></br>
   </div>
   );
 }
   
 
 
-export default ApparelCarousel;
+export default ElectronicsCarousel;
