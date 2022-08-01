@@ -39,3 +39,32 @@
   width: 100%;
   left: 30px;
 }
+
+
+
+.brandsBadges{
+  position:relative; 
+  top: 115px;
+  margin: auto;
+  width: 100%;
+  left: 30px;
+}
+
+.brandsGrid{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px;
+}
+
+.brandsGrid img{
+  width: 55px;
+  height: 55px;
+  display: grid;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+}
