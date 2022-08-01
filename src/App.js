@@ -3,6 +3,7 @@ import { ThemeContext } from "./theme";
 import LightDarkButton from "./LightDarkButton";
 import AdsCarousel from "./AdsCarousel";
 import CategoryBadges from "./CategoryBadges";
+import SneakerCarousel from "./SneakerCarousel";
 
 
 
@@ -17,6 +18,7 @@ function App() {
       <LightDarkButton />
       <AdsCarousel />
       <CategoryBadges/>
+      <SneakerCarousel/>
 
 
     </main> 
