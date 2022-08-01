@@ -2,6 +2,8 @@
 import React, { useContext} from "react";
 import { ThemeContext } from "./theme";
 import LightDarkButton from "./LightDarkButton";
+import AdsCarousel from "./AdsCarousel";
+
 
 function App() {
 
@@ -12,6 +14,8 @@ function App() {
   return (
     <main>
       <LightDarkButton />
+      <AdsCarousel />
+
     </main> 
   );
 }
