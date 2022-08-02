@@ -29,8 +29,6 @@ function ElectronicsCarousel() {
   }, []);
 
 
-  console.log(electronics)
-
   const electronicsDisplayed = electronics.map((electronic) => {
     return(
       <ItemCard
