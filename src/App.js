@@ -1,12 +1,14 @@
 import React, { useContext} from "react";
 import { ThemeContext } from "./theme";
-import LightDarkButton from "./LightDarkButton";
-import AdsCarousel from "./AdsCarousel";
-import CategoryBadges from "./CategoryBadges";
-import SneakerCarousel from "./SneakerCarousel";
-import BrandsBadges from "./BrandsBadges";
-import ApparelCarousel from "./ApparelCarousel";
-import ElectronicsCarousel from "./ElectronicsCarousel";
+import { Route, Switch } from "react-router-dom";
+
+
+import HomePage from "./HomePage";
+// import ItemPopUp from "./ItemPopUp";
+import MyCartPage from "./MyCartPage";
+import ProfilePage from "./ProfilePage";
+import SearchPage from "./SearchPage";
+
 import NavBar from "./NavBar";
 
 
@@ -19,8 +21,29 @@ function App() {
 
   return (
     <main>
-      <LightDarkButton />
-      <AdsCarousel />
+      <div>
+      <Switch>
+        <Route path="/search">
+          <SearchPage />
+        </Route>
+        <Route path="/profile">
+          <ProfilePage />
+        </Route>
+        <Route path="/cart">
+          <MyCartPage />
+        </Route>
+        
+                {/*  it should be sneakers/ then sneakers/1 | same for apparel and electronics*/}
+        {/* <Route path="/item">
+          <ItemPage />
+        </Route> */}
+
+        <Route path="/">
+          <HomePage />
+        </Route>
+      </Switch>
+      </div>
+      {/* <AdsCarousel />
       <CategoryBadges/>
       <SneakerCarousel/>
       <BrandsBadges/>
@@ -47,7 +70,7 @@ function App() {
       <br></br>
       <br></br>
 
-      Julien H.™
+      Julien H.™ */}
       <NavBar/>
 
     </main> 
