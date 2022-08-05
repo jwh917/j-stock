@@ -3,16 +3,21 @@ import { Card } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-function ItemCard({items}) {
+function ItemCard({items, handleItemClick, togglePopUp}) {
 
   const {itemUrl, name, color, price, retailPrice} = items
+
+  function clickedItem(event){
+    handleItemClick(items)
+    togglePopUp()
+  }
 
   return (
     <div >
       
   {/* <Carousel}/> */}
 
-      <Card style={{ width: '15rem', height: "27rem"}}>
+      <Card style={{ width: '15rem', height: "27rem"}} onClick={clickedItem}>
         <Card.Img src={itemUrl} />
         <Card.Body>
           <Card.Title><h3>{name}</h3></Card.Title>

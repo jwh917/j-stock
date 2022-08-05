@@ -10,7 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Stack from 'react-bootstrap/Stack';
 
 
-function ApparelCarousel() {
+function ApparelCarousel({handleItemClick, togglePopUp}) {
 
   const { theme } = useContext(ThemeContext);
 
@@ -32,7 +32,9 @@ function ApparelCarousel() {
     return(
       <ItemCard
       key={apparelItem.id}
-      items={apparelItem} 
+      items={apparelItem}
+      handleItemClick={handleItemClick} 
+      togglePopUp={togglePopUp} 
       />
     )
   })

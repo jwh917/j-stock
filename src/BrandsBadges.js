@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import { ThemeContext } from "./theme";
 import './App.css';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Badge from 'react-bootstrap/Badge';
 
@@ -16,8 +15,7 @@ function BrandsBadges() {
 
   const badgeStyle = theme ? "secondary" : "success"
 
-  // add hvoer css and click css
-  // make div for before badge bubble like
+  // add hover css and click css
 
   return (
     <div className="brandsBadges">

@@ -13,7 +13,7 @@ import Stack from 'react-bootstrap/Stack';
 
 
 
-function ElectronicsCarousel() {
+function ElectronicsCarousel({handleItemClick, togglePopUp}) {
 
   const { theme } = useContext(ThemeContext);
 
@@ -33,7 +33,9 @@ function ElectronicsCarousel() {
     return(
       <ItemCard
       key={electronic.id}
-      items={electronic} 
+      items={electronic}
+      handleItemClick={handleItemClick} 
+      togglePopUp={togglePopUp}  
       />
     )
   })

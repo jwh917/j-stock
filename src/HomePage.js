@@ -1,4 +1,4 @@
-import React, { useContext} from "react";
+import React, {useState, useContext} from "react";
 import { ThemeContext } from "./theme";
 import LightDarkButton from "./LightDarkButton";
 import AdsCarousel from "./AdsCarousel";
@@ -7,24 +7,41 @@ import SneakerCarousel from "./SneakerCarousel";
 import BrandsBadges from "./BrandsBadges";
 import ApparelCarousel from "./ApparelCarousel";
 import ElectronicsCarousel from "./ElectronicsCarousel";
-import NavBar from "./NavBar";
+import ItemPopUp from "./ItemPopUp";
 
 
+// add type to json file objects(types - sneakers, apparel and electronics)
 
-function App() {
+
+function HomePage() {
 
   const { theme } = useContext(ThemeContext);
 
   theme ? document.body.style.backgroundColor = "black" : document.body.style.backgroundColor = "white"
 
+  const [isOpen, setIsOpen] = useState(false)
+  const [itemDisplayed, setItemDisplayed] = useState({})
+
+  function togglePopUp(){
+    setIsOpen(!isOpen)
+  }
+
+  function handleItemClick(item){
+    setItemDisplayed(item)
+
+  }
+
+
+
   return (
     <main>
+      
       <LightDarkButton />
       <AdsCarousel />
       <CategoryBadges/>
-      <SneakerCarousel/>
+      <SneakerCarousel handleItemClick={handleItemClick} togglePopUp={togglePopUp}/>
       <BrandsBadges/>
-      <ApparelCarousel/>
+      <ApparelCarousel handleItemClick={handleItemClick} togglePopUp={togglePopUp}/>
 
       <br></br>
       <br></br>
@@ -35,7 +52,7 @@ function App() {
       <br></br>
 
       <AdsCarousel />
-      <ElectronicsCarousel/>
+      <ElectronicsCarousel handleItemClick={handleItemClick} togglePopUp={togglePopUp}/>
 
       <br></br>
       <br></br>
@@ -46,16 +63,17 @@ function App() {
       <br></br>
       <br></br>
       <br></br>
+      {isOpen && <ItemPopUp
+        togglePopUp={togglePopUp}
+        isOpen={isOpen}
+        itemDisplayed={itemDisplayed}
+      />}
 
       Julien H.™
 
     </main> 
-      // Product page
-      // Search page
-      // Profile page
-      // Car page
-      // Home Page
+
   );
 }
 
-export default App;
+export default HomePage;

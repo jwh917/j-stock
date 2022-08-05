@@ -12,7 +12,7 @@ import Stack from 'react-bootstrap/Stack';
 
 
 
-function SneakerCarousel() {
+function SneakerCarousel({handleItemClick, togglePopUp}) {
 
   const { theme } = useContext(ThemeContext);
 
@@ -32,7 +32,9 @@ function SneakerCarousel() {
     return(
       <ItemCard
       key={sneaker.id}
-      items={sneaker} 
+      items={sneaker}
+      handleItemClick={handleItemClick} 
+      togglePopUp={togglePopUp}
       />
     )
   })
