@@ -37,6 +37,7 @@ function HomePage() {
     <main>
       
       <LightDarkButton />
+      {/* j stock logo */}
       <AdsCarousel />
       <CategoryBadges/>
       <SneakerCarousel handleItemClick={handleItemClick} togglePopUp={togglePopUp}/>
