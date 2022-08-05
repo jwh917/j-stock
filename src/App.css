@@ -1,6 +1,9 @@
 #lightDark{
   position:fixed;
   top:0;
+  margin-top: 17px;
+  width: 50px;
+  height: 48px;
 }
 
 .adsCarousel{
@@ -147,4 +150,10 @@
   text-align: center;
   padding: 15px;
 }
+
+
+
+
+/* position:fixed;
+top:0; */
 

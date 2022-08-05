@@ -1,6 +1,10 @@
 import React, { useContext} from "react";
 import { ThemeContext } from "./theme";
-import { Route, Switch } from "react-router-dom";
+import {Switch, Route } from "react-router-dom";
+// import { Routes ,Rouste } from 'react-router-dom';
+
+
+
 import HomePage from "./HomePage";
 import MyCartPage from "./MyCartPage";
 import ProfilePage from "./ProfilePage";
@@ -20,7 +24,6 @@ function App() {
 
   return (
     <main>
-      <div>
       <Switch>
 
         <Route path="/search">
@@ -40,7 +43,6 @@ function App() {
         </Route>
 
       </Switch>
-      </div>
 
       Julien H.™
       <NavBar/>
