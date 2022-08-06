@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, {useState, useContext } from "react";
 import { ThemeContext } from "./theme";
 import LightDarkButton from "./LightDarkButton";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -6,18 +6,22 @@ import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 
 
-// onChange={}
 
-
-function SearchPage() {
-
+function SearchPage({handleCatorgeyChange}) {
 
   const { theme } = useContext(ThemeContext);
 
 
   const themeColor = theme ? "secondary" : "success"
 
+  const [key, setKey] = useState("All");
 
+
+  function knowKey(k){
+    setKey(k)
+    handleCatorgeyChange(k)
+
+  }
 
 
   return (
@@ -46,53 +50,14 @@ function SearchPage() {
                   <br></br>
                     
                     {/* Personal divs and hover css */}
-                    <div style={{textAlign: "center"}}>
+                    <div style={{textAlign: "center", position: "relative"}}>
 
-                      {/* <h2>All</h2>
-
-                      <div className="vl"></div>
-                      <h2>Sneakers</h2>
-
-                      <div className="vl"></div>
-                      <h2>Apparel</h2>
-
-                      <div className="vl"></div>
-                      <h2>Electronics</h2> */}
-
-
-                      <Tabs
-                        id="controlled-tab-example"
-                        className="mb-3"
-                      >
-                        <Tab eventKey="All" title="All">
-                          {/* <Sonnet /> */}
-                          {/* All D */}
-                          {/* {setCatorgey("All")} */}
-                          
-                        </Tab>
-                        <Tab eventKey="Sneakers" title="Sneakers">
-                          {/* <Sonnet /> */}
-                          {/* Sneakers */}
-                          {/* {setCatorgey("Sneakers")} */}
-                          {/* setCatorgey */}
-                        </Tab>
-                        <Tab eventKey="Apparel" title="Apparel">
-                          {/* <Sonnet /> */}
-                          {/* Apparel */}
-                          {/* {setCatorgey("Apparel")} */}
-                          {/* setCatorgey */}
-                        </Tab>
-                        <Tab eventKey="Electronics" title="Electronics" >
-                          {/* <Sonnet /> */}
-                          {/* Electronics */}
-                          {/* {setCatorgey("Electronics")} */}
-                          {/* setCatorgey */}
-                        </Tab>
+                      <Tabs id="controlled-tab-example" activeKey={key} onSelect={knowKey} className="mb-3">
+                        <Tab eventKey="All" title="All"></Tab>
+                        <Tab eventKey="Sneakers" title="Sneakers"></Tab>
+                        <Tab eventKey="Apparel" title="Apparel"></Tab>
+                        <Tab eventKey="Electronics" title="Electronics"></Tab>
                       </Tabs>
-
-
-
-
 
                     </div>
 

@@ -151,6 +151,29 @@
   padding: 15px;
 }
 
+/* .searchContainer{
+display: grid;
+grid-template-columns: repeat(2, minmax(150px, 2fr));
+grid-template-rows: repeat(2, minmax(150px, 2fr));
+
+} */
+
+.searchContainer{
+  margin: 300px 170px; 
+  position: relative;
+  bottom: 0;
+  width:100px;
+  height:100px;
+  /* background-color:#fff; */
+  display:grid;
+  grid-template-columns: 8ch auto;
+  grid-row: auto auto;
+  grid-column-gap: 200px;
+  grid-row-gap: 20px;
+  
+
+}
+
 
 /* hr {
   width:100%; 
