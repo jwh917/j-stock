@@ -30,7 +30,7 @@ function ItemPopUp({togglePopUp, isOpen, itemDisplayed}) {
   
 
   return (
-    <div>
+    <div >
     
 
        <div className="popup-box">
@@ -49,8 +49,6 @@ function ItemPopUp({togglePopUp, isOpen, itemDisplayed}) {
               ${sell}
             </Badge>
           </div>
-          <br></br>
-
           <div>
             <Badge className={`badge bg-${badgeStyle}`} style={{"color":headerStyle, width:"100px", height:"20px"}}>
               Authhentic
@@ -74,16 +72,17 @@ function ItemPopUp({togglePopUp, isOpen, itemDisplayed}) {
               <p>Release Date: {releaseDate}</p>
               <p>Retail Price: ${retailPrice}</p>
 
-              <h5>Size Dropdown</h5>
               {/* size dropdown only for sneakers and apparel not electronics */}
               {/* sneakers - numbers and apparel -  s, m, l, xl */}
             </div>
 
-            <div style={{marginLeft: "550px"}}>
+            <div style={{position:"relative", marginLeft: "550px", top:"-70px"}}>
               {/* size dropdown only for sneakers and apparel */}
               {/* sneakers - numbers and apparel -  s, m, l, xl */}
               {/* make bootstrap button */}
               {/* Add to cart button with send post request to  cart array in json file put all ifno from item and size if so  */}
+              <h5>Size Dropdown</h5>
+              <br></br>
               <button>Add To Cart</button>
             </div>
 

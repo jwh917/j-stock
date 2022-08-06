@@ -38,9 +38,12 @@ function SearchPage({handleCatorgeyChange, itemSearch, sortHandleHighLow, sortHa
                     </div>
                     <div className="col-md-8">
                   <div className="d-flex form-inputs" style={{width: "600px", height:"50px"}}>
-                    <input className="form-control" type="text" placeholder="Search any item..." onChange={itemSearch}/>
+                    <div style={{marginTop:"12px"}}>
+                      <i className="bi bi-search"></i>
 
-                    <i className="bx bx-search"></i>
+                    </div>
+
+                    <input className="form-control" type="text" placeholder="Search any item..." onChange={itemSearch}/>
                   </div>
                     </div>
 

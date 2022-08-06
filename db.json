@@ -31,7 +31,7 @@
   "apparel": [
     {
       "id": 1,
-      "name": "Kith Marvel Spider-Man New York City Vintage Tee",
+      "name": "Kith Spider-Man NYC Vintage T",
       "brand": "Kith",
       "kind": "Shirt",
       "color": "White",
@@ -43,7 +43,7 @@
       "itemUrl": "https://images.stockx.com/images/Kith-Marvel-Spider-Man-New-York-City-Vintage-Tee-White.jpg?fit=fill&bg=FFFFFF&w=480&h=320&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1657893744&q=75"
     },    {
       "id": 2,
-      "name": "Fear of God Essentials T-shirt",
+      "name": "Fear of God Essentials T",
       "brand": "Essentials",
       "color": "Seafoam",
       "colorWay": "Seafoam",
