@@ -7,7 +7,7 @@ import Tabs from 'react-bootstrap/Tabs';
 
 
 
-function SearchPage({handleCatorgeyChange}) {
+function SearchPage({handleCatorgeyChange, itemSearch}) {
 
   const { theme } = useContext(ThemeContext);
 
@@ -38,7 +38,7 @@ function SearchPage({handleCatorgeyChange}) {
                     </div>
                     <div className="col-md-8">
                   <div className="d-flex form-inputs" style={{width: "600px", height:"50px"}}>
-                    <input className="form-control" type="text" placeholder="Search any item..."/>
+                    <input className="form-control" type="text" placeholder="Search any item..." onChange={itemSearch}/>
 
                     <i className="bx bx-search"></i>
                   </div>

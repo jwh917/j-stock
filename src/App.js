@@ -44,7 +44,7 @@ function App() {
 
       </Switch>
 
-      Julien H.™
+      {/* Julien H.™ */}
       <NavBar/>
 
     </main> 

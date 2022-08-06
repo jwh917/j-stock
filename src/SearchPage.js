@@ -18,14 +18,7 @@ function SearchPage() {
   const [isOpen, setIsOpen] = useState(false)
   const [itemDisplayed, setItemDisplayed] = useState({})
 
-  function togglePopUp(){
-    setIsOpen(!isOpen)
-  }
-
-  function handleItemClick(item){
-    setItemDisplayed(item)
-
-  }
+  const [searchInput, setSearchInput] = useState("")
 
 
   useEffect(() => {
@@ -52,6 +45,20 @@ function SearchPage() {
   const allItems = [...sneakers, ...apparel, ...electronics]
 
 
+  function togglePopUp(){
+    setIsOpen(!isOpen)
+  }
+
+  function handleItemClick(item){
+    setItemDisplayed(item)
+
+  }
+
+  function itemSearch(event){
+    setSearchInput(event.target.value)
+  }
+
+
 
   function handleCatorgeyChange(selectCatorgey){
     setCatorgey(selectCatorgey)
@@ -61,9 +68,9 @@ function SearchPage() {
 
   return (
     <main>
-      <SearchBar handleCatorgeyChange={handleCatorgeyChange}/>
+      <SearchBar handleCatorgeyChange={handleCatorgeyChange} itemSearch={itemSearch}/>
 
-      <SearchContainer catorgey={catorgey} sneakers={sneakers} apparel={apparel} electronics={electronics} allItems={allItems} handleItemClick={handleItemClick} togglePopUp={togglePopUp}/>
+      <SearchContainer catorgey={catorgey} sneakers={sneakers} apparel={apparel} electronics={electronics} allItems={allItems} handleItemClick={handleItemClick} togglePopUp={togglePopUp} searchInput={searchInput}/>
      
 
       {/* <br></br>

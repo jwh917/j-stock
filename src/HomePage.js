@@ -70,7 +70,7 @@ function HomePage() {
         itemDisplayed={itemDisplayed}
       />}
 
-      Julien H.™
+      {/* Julien H.™ */}
 
     </main> 
 

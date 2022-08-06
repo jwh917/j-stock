@@ -3,10 +3,26 @@ import './App.css';
 import ItemCard from "./ItemCard";
 
 
-function SearchContainer({catorgey, sneakers, apparel, electronics, allItems, handleItemClick, togglePopUp}) {
-  
+function SearchContainer({catorgey, sneakers, apparel, electronics, allItems, handleItemClick, togglePopUp, searchInput}) {
 
-  const allItemsDisplayed = allItems.map((item, index) => {
+  const searchedItems = allItems.filter((item) => 
+  item.name.toLowerCase().includes(searchInput.toLowerCase()))
+
+
+  const searchedSneakers = sneakers.filter((item) => 
+  item.name.toLowerCase().includes(searchInput.toLowerCase()))
+
+
+  const searchedApparel = apparel.filter((item) => 
+  item.name.toLowerCase().includes(searchInput.toLowerCase()))
+
+
+  const searchedElectronics = electronics.filter((item) => 
+  item.name.toLowerCase().includes(searchInput.toLowerCase()))
+
+
+
+  const allItemsDisplayed = searchedItems.map((item, index) => {
     return(
       <ItemCard
       key={index}
@@ -17,7 +33,8 @@ function SearchContainer({catorgey, sneakers, apparel, electronics, allItems, ha
     )
   })
 
-  const allSneakersDisplayed = sneakers.map((sneaker, index) => {
+
+  const allSneakersDisplayed = searchedSneakers.map((sneaker, index) => {
     return(
       <ItemCard
       key={index}
@@ -28,7 +45,7 @@ function SearchContainer({catorgey, sneakers, apparel, electronics, allItems, ha
     )
   })
 
-  const allApparelDisplayed = apparel.map((item, index) => {
+  const allApparelDisplayed = searchedApparel.map((item, index) => {
     return(
       <ItemCard
       key={index}
@@ -39,7 +56,7 @@ function SearchContainer({catorgey, sneakers, apparel, electronics, allItems, ha
     )
   })
 
-  const allElectronicsDisplayed = electronics.map((electronic, index) => {
+  const allElectronicsDisplayed = searchedElectronics.map((electronic, index) => {
     return(
       <ItemCard
       key={index}
