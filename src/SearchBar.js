@@ -2,6 +2,8 @@ import React, { useContext } from "react";
 import { ThemeContext } from "./theme";
 import LightDarkButton from "./LightDarkButton";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Tab from 'react-bootstrap/Tab';
+import Tabs from 'react-bootstrap/Tabs';
 
 
 // onChange={}
@@ -14,6 +16,8 @@ function SearchPage() {
 
 
   const themeColor = theme ? "secondary" : "success"
+
+
 
 
   return (
@@ -42,9 +46,9 @@ function SearchPage() {
                   <br></br>
                     
                     {/* Personal divs and hover css */}
-                    <div className="categoryGrid">
+                    <div style={{textAlign: "center"}}>
 
-                      <h2>All</h2>
+                      {/* <h2>All</h2>
 
                       <div className="vl"></div>
                       <h2>Sneakers</h2>
@@ -53,7 +57,42 @@ function SearchPage() {
                       <h2>Apparel</h2>
 
                       <div className="vl"></div>
-                      <h2>Electronics</h2>
+                      <h2>Electronics</h2> */}
+
+
+                      <Tabs
+                        id="controlled-tab-example"
+                        className="mb-3"
+                      >
+                        <Tab eventKey="All" title="All">
+                          {/* <Sonnet /> */}
+                          {/* All D */}
+                          {/* {setCatorgey("All")} */}
+                          
+                        </Tab>
+                        <Tab eventKey="Sneakers" title="Sneakers">
+                          {/* <Sonnet /> */}
+                          {/* Sneakers */}
+                          {/* {setCatorgey("Sneakers")} */}
+                          {/* setCatorgey */}
+                        </Tab>
+                        <Tab eventKey="Apparel" title="Apparel">
+                          {/* <Sonnet /> */}
+                          {/* Apparel */}
+                          {/* {setCatorgey("Apparel")} */}
+                          {/* setCatorgey */}
+                        </Tab>
+                        <Tab eventKey="Electronics" title="Electronics" >
+                          {/* <Sonnet /> */}
+                          {/* Electronics */}
+                          {/* {setCatorgey("Electronics")} */}
+                          {/* setCatorgey */}
+                        </Tab>
+                      </Tabs>
+
+
+
+
 
                     </div>
 

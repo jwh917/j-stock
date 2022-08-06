@@ -4,12 +4,11 @@ import SearchBar from "./SearchBar";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-// onChange={}
-
 function SearchPage() {
+
   return (
     <main>
-      <SearchBar/>
+      <SearchBar />
      
 
       <br></br>
