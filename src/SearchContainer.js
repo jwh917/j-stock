@@ -3,22 +3,23 @@ import './App.css';
 import ItemCard from "./ItemCard";
 
 
-function SearchContainer({catorgey, sneakers, apparel, electronics, allItems, handleItemClick, togglePopUp, searchInput}) {
+function SearchContainer({catorgey, sneakers, apparel, electronics, allItems, handleItemClick, togglePopUp, searchInput, helpSort, sortHighLow, sortLowHigh}) {
 
+  
   const searchedItems = allItems.filter((item) => 
-  item.name.toLowerCase().includes(searchInput.toLowerCase()))
+  item.name.toLowerCase().includes(searchInput.toLowerCase())).sort((item1, item2) => helpSort(sortLowHigh, sortHighLow, item1, item2))
 
 
   const searchedSneakers = sneakers.filter((item) => 
-  item.name.toLowerCase().includes(searchInput.toLowerCase()))
+  item.name.toLowerCase().includes(searchInput.toLowerCase())).sort((item1, item2) => helpSort(sortLowHigh, sortHighLow, item1, item2))
 
 
   const searchedApparel = apparel.filter((item) => 
-  item.name.toLowerCase().includes(searchInput.toLowerCase()))
+  item.name.toLowerCase().includes(searchInput.toLowerCase())).sort((item1, item2) => helpSort(sortLowHigh, sortHighLow, item1, item2))
 
 
   const searchedElectronics = electronics.filter((item) => 
-  item.name.toLowerCase().includes(searchInput.toLowerCase()))
+  item.name.toLowerCase().includes(searchInput.toLowerCase())).sort((item1, item2) => helpSort(sortLowHigh, sortHighLow, item1, item2))
 
 
 

@@ -21,6 +21,12 @@ function SearchPage() {
   const [searchInput, setSearchInput] = useState("")
 
 
+  const [sortHighLow, setSortHighLow] = useState(false)
+  const [sortLowHigh, setSortLowHigh] = useState(false)
+
+
+
+
   useEffect(() => {
     fetch("http://localhost:3000/sneakers")
       .then((r) => r.json())
@@ -65,12 +71,32 @@ function SearchPage() {
   }
 
 
+  function sortHandleHighLow(){
+    setSortHighLow((prevState) => !prevState)
+    setSortLowHigh(false)
+  }
+
+  function sortHandleLowHigh(){
+    setSortLowHigh((prevState) => !prevState) 
+    setSortHighLow(false)
+  }
+
+  function helpSort(sortLowHigh, sortHighLow, plant1, plant2){
+    if(sortLowHigh === true){
+      return plant1.price - plant2.price
+    }
+    if((sortHighLow === true)){
+      return plant2.price - plant1.price
+    }
+  }
+
+
 
   return (
     <main>
-      <SearchBar handleCatorgeyChange={handleCatorgeyChange} itemSearch={itemSearch}/>
+      <SearchBar handleCatorgeyChange={handleCatorgeyChange} itemSearch={itemSearch} sortHandleHighLow={sortHandleHighLow} sortHandleLowHigh={sortHandleLowHigh} sortHighLow={sortHighLow} sortLowHigh={sortLowHigh}/>
 
-      <SearchContainer catorgey={catorgey} sneakers={sneakers} apparel={apparel} electronics={electronics} allItems={allItems} handleItemClick={handleItemClick} togglePopUp={togglePopUp} searchInput={searchInput}/>
+      <SearchContainer catorgey={catorgey} sneakers={sneakers} apparel={apparel} electronics={electronics} allItems={allItems} handleItemClick={handleItemClick} togglePopUp={togglePopUp} searchInput={searchInput} helpSort={helpSort} sortHighLow={sortHighLow} sortLowHigh={sortLowHigh}/>
      
 
       {/* <br></br>

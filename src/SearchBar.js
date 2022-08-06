@@ -7,7 +7,7 @@ import Tabs from 'react-bootstrap/Tabs';
 
 
 
-function SearchPage({handleCatorgeyChange, itemSearch}) {
+function SearchPage({handleCatorgeyChange, itemSearch, sortHandleHighLow, sortHandleLowHigh, sortHighLow, sortLowHigh}) {
 
   const { theme } = useContext(ThemeContext);
 
@@ -94,11 +94,24 @@ function SearchPage({handleCatorgeyChange, itemSearch}) {
 
                       <br></br>
                       <br></br>
-                      <button className="btn btn-light">High to Low</button>
+
+                      {sortHighLow ? (
+                        <button onClick={sortHandleHighLow} style={{ color: "blue"}} className="btn btn-light">(High to Low) ⬆️</button>
+                      ) : (
+                        <button onClick={sortHandleHighLow} className="btn btn-light">(High to Low) ⬆️</button>
+                      )}
 
                       <br></br>
                       <br></br>
-                      <button className="btn btn-light">Low to High</button>
+
+                      {sortLowHigh ? (
+                        <button onClick={sortHandleLowHigh} style={{ color: "blue"}} className="btn btn-light">(Low to High) ⬇️</button>
+                      ) : (
+                        <button onClick={sortHandleLowHigh} className="btn btn-light">(Low to High) ⬇️</button>
+                      )}
+                    
+                    
+                    
                     </div>
 
                   </div>
