@@ -53,23 +53,53 @@ function SearchPage({handleCatorgeyChange}) {
                     <div style={{textAlign: "center", position: "relative"}}>
 
                       <Tabs id="controlled-tab-example" activeKey={key} onSelect={knowKey} className="mb-3">
-                        <Tab eventKey="All" title="All"></Tab>
-                        <Tab eventKey="Sneakers" title="Sneakers"></Tab>
+                        <Tab eventKey="All" title="All"></Tab>                        
                         <Tab eventKey="Apparel" title="Apparel"></Tab>
                         <Tab eventKey="Electronics" title="Electronics"></Tab>
+                        <Tab eventKey="Sneakers" title="Sneakers"></Tab>
                       </Tabs>
 
                     </div>
 
                   <div className="categoryGrid">
 
-                    <button className={`badge bg-${themeColor}`} style={{ borderRadius: "5px"}}>Filter Brands</button>
+                    <div className={`badge bg-${themeColor}`} style={{ borderRadius: "5px"}}>
+                      Filter Brands
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      {/* <button >Filter Brands</button> */}
 
-                    {/* j stock logo */}
-                    <img src="https://i.etsystatic.com/33329294/r/il/727f47/3627737931/il_1588xN.3627737931_eicj.jpg" alt="jordan signs"/>
+                      {/* Brands dropdown will match with whatever catorgey the page is in */}
+                      {/* All - Jordan, Kith, Sony | Sneakers - Jordan, Nike, New Balance */}
+                      <div className="dropdown">
+                        <button className="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Filter Brands
+                        </button>
+                        <ul className="dropdown-menu">
+                          <li className="dropdown-item">Action</li>
+                          <li className="dropdown-item">Another action</li>
+                          <li className="dropdown-item">Something else here</li>
+                        </ul>
+                      </div>
+                    </div>
 
-                    <button className={`badge bg-${themeColor}`} style={{ borderRadius: "5px"}}>Sort Prices</button>
+                    <div>
+                      {/* j stock logo */}
+                      <img src="https://i.etsystatic.com/33329294/r/il/727f47/3627737931/il_1588xN.3627737931_eicj.jpg" alt="jordan signs"/>
+                    </div>
+                    
+                    <div className={`badge bg-${themeColor}`} style={{ borderRadius: "5px"}}>
+                      Sort Prices
 
+                      <br></br>
+                      <br></br>
+                      <button className="btn btn-light">High to Low</button>
+
+                      <br></br>
+                      <br></br>
+                      <button className="btn btn-light">Low to High</button>
+                    </div>
 
                   </div>
      

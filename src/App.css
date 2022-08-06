@@ -153,7 +153,7 @@
 
 
 .searchContainer{
-  margin: 300px 170px; 
+  margin: 350px 170px; 
   position: relative;
   bottom: 0;
   width:100px;
@@ -161,7 +161,7 @@
   display:grid;
   grid-template-columns: 8ch auto;
   grid-row: auto auto;
-  grid-column-gap: 197.5px;
+  grid-column-gap: 205px;
   grid-row-gap: 20px;
   
 
