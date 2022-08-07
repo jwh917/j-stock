@@ -114,8 +114,7 @@ function MyCart() {
                   <input type="text" id="cvv" name="cvv" placeholder="352"/>
                 </div>
               </div>
-              
-              
+          
           
             <label>
               <input type="checkbox" defaultChecked="checked" name="sameadr"/> Shipping address same as billing

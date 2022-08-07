@@ -2,19 +2,22 @@
   "sneakers": [
     {
       "id": 1,
+      "category": "sneakers",
       "name": "Jordan 11",
       "brand": "Jordan",
       "color": "Cool Grey",
       "colorWay": "Medium Grey/Multi- Color/Multi-Color",
       "buy": 211,
-      "sell":347,
+      "sell": 347,
       "price": 278,
       "retailPrice": 225,
       "releaseDate": "12/31/22",
       "productDetails": "Since its debut in 2001, the Air Jordan 11 Cool Grey has become one of the most celebrated colorways in the Jordan 11 catalog.",
       "itemUrl": "https://cdn.flightclub.com/1500/TEMPLATE/248952/1.jpg"
-    },    {
+    },
+    {
       "id": 2,
+      "category": "sneakers",
       "name": "Jordan 1 Low",
       "brand": "Jordan",
       "color": "Fragment x Travis Scott",
@@ -31,6 +34,7 @@
   "apparel": [
     {
       "id": 1,
+      "category": "apparel",
       "name": "Kith Spider-Man NYC Vintage T",
       "brand": "Kith",
       "kind": "Shirt",
@@ -40,9 +44,12 @@
       "price": 115,
       "retailPrice": 72,
       "releaseDate": "07/15/2022",
+      "productDetails": "",
       "itemUrl": "https://images.stockx.com/images/Kith-Marvel-Spider-Man-New-York-City-Vintage-Tee-White.jpg?fit=fill&bg=FFFFFF&w=480&h=320&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1657893744&q=75"
-    },    {
+    },
+    {
       "id": 2,
+      "category": "apparel",
       "name": "Fear of God Essentials T",
       "brand": "Essentials",
       "color": "Seafoam",
@@ -59,6 +66,7 @@
   "electronics": [
     {
       "id": 1,
+      "category": "electronics",
       "name": "Sony PS5",
       "brand": "Sony",
       "color": "White",
@@ -69,8 +77,10 @@
       "releaseDate": "11/12/20",
       "productDetails": "Experience next-gen gaming with the The SonyPlaystation 5 Blu-Ray Edition console.",
       "itemUrl": "https://i5.walmartimages.com/asr/2d7d7f63-fbd3-4892-a633-f371b7c948a5.e3656c58c60bfd68e74804868cb51b55.png?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
-    },{
+    },
+    {
       "id": 2,
+      "category": "electronics",
       "name": "Sony PlayStation VR Headset Bundle",
       "brand": "Sony",
       "color": "White/Black",
@@ -85,7 +95,6 @@
     }
   ],
   "myCart": [
-    
-
+   
   ]
 }
