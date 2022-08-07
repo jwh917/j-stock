@@ -1,0 +1,92 @@
+import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+function MyCartItemCard({myCartItem}) {
+
+
+  const { itemUrl, name, color, buy, category} = myCartItem.item
+  const { size } = myCartItem
+
+  function itemSizing(){
+
+    if(category === "sneakers"){
+
+      return (
+        <select name="size" defaultValue={size} >
+          <option value="7">7</option>        
+          <option value="7.5">7.5</option>
+
+          <option value="8">8</option>
+          <option value="8.5">8.5</option>
+
+          <option value="9">9</option>
+          <option value="9.5">9.5</option>
+
+          <option value="10">10</option>
+          <option value="10.5">10.5</option>
+
+          <option value="11">11</option>
+          <option value="11.5">11.5</option>
+
+          <option value="12">12</option>
+          <option value="12.5">12.5</option>
+
+          <option value="13">13</option>
+          <option value="13.5">13.5</option>
+        </select>
+      )
+    }
+
+    if(category === "apparel"){
+      return(
+        <select name="size" defaultValue={size} >
+          <option value="Small">S</option>
+          <option value="Medium">M</option>
+          <option value="Large">L</option>
+          <option value="X-Large">XL</option>
+        </select>
+      )
+    }
+
+    if(category === "electronics"){
+      return(
+        <select name="size" >
+          <option value="NoSize">No Size</option>
+
+        </select>
+      )
+    }
+
+  }
+
+
+
+  return (
+    <main >
+      <div>
+
+        <div>
+          <img src={itemUrl} alt="my cart item " style={{width:"50px", height:"50px"}}/>
+          <br></br>
+          {name}
+          <p>{color}</p>
+          
+          {itemSizing()}
+          <br></br>
+          
+          <span className="price">${buy}</span>
+
+          <br></br>
+
+          <span>🗑</span>
+
+        </div>
+        <br></br>
+      </div>
+
+    </main>
+  );
+}
+
+export default MyCartItemCard;
