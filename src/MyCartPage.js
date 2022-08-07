@@ -34,6 +34,12 @@ function MyCartPage() {
       .then((myCartData) => setMyCart(myCartData));
   }, []);
 
+  function handleDelItem(deletedItem){
+    console.log(deletedItem)
+    const updatedCart = myCart.filter((item) => item.id !== deletedItem.id);
+    setMyCart(updatedCart)
+  }
+
 
   const itemsCount = myCart.length
 
@@ -49,6 +55,7 @@ function MyCartPage() {
       <MyCartItemCard
       key={myCartItem.id}
       myCartItem={myCartItem}
+      handleDelItem={handleDelItem}
       />
       
     )
@@ -59,7 +66,7 @@ function MyCartPage() {
     <main style={{"color": textStyle}}>
       <LightDarkButton/>
       <MyCartHeader itemsCount={itemsCount}/>
-      <MyCartItemsContainer total={total} myCartItems={myCartItems}/>
+      <MyCartItemsContainer total={total} myCartItems={myCartItems} />
   
       <br></br>
       <br></br>

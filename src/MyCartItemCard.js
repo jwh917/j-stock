@@ -2,7 +2,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-function MyCartItemCard({myCartItem}) {
+function MyCartItemCard({myCartItem, handleDelItem}) {
 
   const { itemUrl, name, color, buy, category} = myCartItem.item
   const { id, size } = myCartItem
@@ -32,10 +32,8 @@ function MyCartItemCard({myCartItem}) {
       method: "DELETE",
     })
       .then((r) => r.json())
-      .then(() => console.log(id));
+      .then(() => handleDelItem(myCartItem));
 
-    // fix, should rerender
-    window.location.reload(false)
   }
   
   function itemSizing(){
