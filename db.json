@@ -94,26 +94,6 @@
       "itemUrl": "https://i5.walmartimages.com/asr/f8937e7c-55e9-4be8-a897-9018d5b69d94.b4186354f8ff4d98dc1960ab2d61c6b6.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
     }
   ],
-  "myCart": [
-    {
-      "item": {
-        "id": 2,
-        "category": "sneakers",
-        "name": "Jordan 1 Low",
-        "brand": "Jordan",
-        "color": "Fragment x Travis Scott",
-        "colorWay": "White/Black-Royal-Sail",
-        "buy": 1139,
-        "sell": 1850,
-        "price": 1824,
-        "retailPrice": 150,
-        "releaseDate": "8/13/21",
-        "productDetails": "The Air Jordan 1 Low Fragment Design x Travis Scott nods to the original 2016 Air Jordan 1 Fragment with its simple color blocking.",
-        "itemUrl": "https://cdn.flightclub.com/1250/TEMPLATE/267414/1.jpg"
-      },
-      "size": "11.5",
-      "id": 1
-    }
-  ],
+  "myCart": [],
   "completedOrders": []
 }

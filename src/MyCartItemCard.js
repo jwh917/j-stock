@@ -22,6 +22,21 @@ function MyCartItemCard({myCartItem}) {
       .then((newSizeData) => console.log(newSizeData));
 
   }
+
+
+
+
+  function handleDeleteClick() {
+    
+    fetch(`http://localhost:3000/myCart/${id}`, {
+      method: "DELETE",
+    })
+      .then((r) => r.json())
+      .then(() => console.log(id));
+
+    // fix, should rerender
+    window.location.reload(false)
+  }
   
   function itemSizing(){
 
@@ -92,7 +107,7 @@ function MyCartItemCard({myCartItem}) {
 
           <br></br>
 
-          <span>🗑</span>
+          <span onClick={handleDeleteClick}>🗑</span>
 
         </div>
         <br></br>
