@@ -2,10 +2,10 @@ import React, {useState, useEffect, useContext } from "react";
 import { ThemeContext } from "./theme";
 import LightDarkButton from "./LightDarkButton";
 import MyCartHeader from "./MyCartHeader";
+import CheckoutBar from "./CheckoutBar";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Badge from 'react-bootstrap/Badge';
-import { Button } from 'react-bootstrap';
+
 
 // import '@fortawesome/fontawesome-svg-core/styles.css'
 
@@ -48,8 +48,6 @@ function MyCart() {
   const { theme } = useContext(ThemeContext);
 
   const textStyle = theme ? "white" : "black"
-
-  const badgeStyle = theme ? "secondary" : "success"
 
 
   return (
@@ -135,25 +133,13 @@ function MyCart() {
             </label>
           </div>
 
-            {/* <input type="submit" value="Continue to checkout" class="btn"/> */}
         </form>
       </div>
   
 
 
-      {/* checkout bar */}
-      <div>
-        <Badge className={`badge bg-${badgeStyle}`} style={{width:"100%", height:"180px", marginTop:"150px", position: "absolute"}} >         
-        {/* bar container */}
-          <div>
-            {/* bar */}
-            <h3> Delivery Cost: FREE</h3>
-            <h2> Total: $0</h2>
-            <Button className="btn btn-light" style={{width:"150px", height:"40px"}} type="submit" form="my-form"> Checkout </Button>
-          </div>
-        </Badge>
-      </div>
-
+      
+      <CheckoutBar total={total}/>
     </main>
   );
 }

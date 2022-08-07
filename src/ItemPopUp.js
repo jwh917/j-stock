@@ -68,7 +68,7 @@ function ItemPopUp({togglePopUp, isOpen, itemDisplayed}) {
       body: JSON.stringify(newCartItem),
     })
       .then((r) => r.json())
-      .then((newCartItemData) => console.log(newCartItem));
+      .then((newCartItemData) => console.log(newCartItemData));
 
   }
 
