@@ -1,6 +1,8 @@
-import React, {useEffect, useContext } from "react";
+import React, {useState, useEffect, useContext } from "react";
 import { ThemeContext } from "./theme";
 import LightDarkButton from "./LightDarkButton";
+import MyCartHeader from "./MyCartHeader";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Badge from 'react-bootstrap/Badge';
 import { Button } from 'react-bootstrap';
@@ -24,6 +26,25 @@ function MyCart() {
   }, []);
 
 
+  const [myCart, setMyCart] = useState([])
+
+  // const [total, set] = useState([])
+
+  useEffect(() => {
+    fetch("http://localhost:3000/myCart")
+      .then((r) => r.json())
+      .then((myCartData) => setMyCart(myCartData));
+  }, []);
+
+
+
+  const itemsCount = myCart.length
+
+  const sumTotal = myCart.map((myCartItem) => myCartItem.item.buy)
+  const total = sumTotal.reduce((partialSum, a) => partialSum + a, 0);
+
+
+
   const { theme } = useContext(ThemeContext);
 
   const textStyle = theme ? "white" : "black"
@@ -35,21 +56,14 @@ function MyCart() {
     <main style={{"color": textStyle}}>
       <LightDarkButton/>
 
-      <h1 style={{textAlign: "center"}}> <i className="bi bi-cart-fill"></i> MyCart</h1>
-      <p style={{textAlign: "center"}}>0 Items</p>
-      <hr></hr>
+      <MyCartHeader itemsCount={itemsCount}/>
 
-      {/* items container */}
-      {/* no items */}
 
+      {/* myCartItems container */}
       <div className="col-25" style={{textAlign: "center"}}>
         <div>
-          <p>Product 1 <span className="price">$15</span></p>
-          <p>Product 2 <span className="price">$5</span></p>
-          <p>Product 3 <span className="price">$8</span></p>
-          <p>Product 4 <span className="price">$2</span></p>
           <hr></hr>
-          <p>Total <span className="price" style={{color:"black"}}><b>$30</b></span></p>
+          <p>Total <span className="price" style={{"color": textStyle}}><b>${total}</b></span></p>
         </div>
       </div>
   
@@ -57,7 +71,7 @@ function MyCart() {
       <br></br>
       <br></br>
 
-
+      {/* userInput container */}
       <div className="container">
         <form action="/action_page.php" id="my-form">
 

@@ -37,8 +37,8 @@
       "category": "apparel",
       "name": "Kith Spider-Man NYC Vintage T",
       "brand": "Kith",
-      "kind": "Shirt",
       "color": "White",
+      "colorWay": "White",
       "buy": 114,
       "sell": 125,
       "price": 115,
@@ -95,6 +95,9 @@
     }
   ],
   "myCart": [
-   
+    
+  ],
+  "completedOrders": [
+
   ]
 }
