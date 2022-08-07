@@ -4,16 +4,31 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function MyCartItemCard({myCartItem}) {
 
-
   const { itemUrl, name, color, buy, category} = myCartItem.item
-  const { size } = myCartItem
+  const { id, size } = myCartItem
 
+  function handleSizeChange(event){
+
+    const newSize = event.target.value
+
+    fetch(`http://localhost:3000/myCart/${id}`, {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({size: newSize}),
+    })
+      .then((r) => r.json())
+      .then((newSizeData) => console.log(newSizeData));
+
+  }
+  
   function itemSizing(){
 
     if(category === "sneakers"){
 
       return (
-        <select name="size" defaultValue={size} >
+        <select name="size" defaultValue={size} onChange={handleSizeChange}>
           <option value="7">7</option>        
           <option value="7.5">7.5</option>
 
@@ -40,7 +55,7 @@ function MyCartItemCard({myCartItem}) {
 
     if(category === "apparel"){
       return(
-        <select name="size" defaultValue={size} >
+        <select name="size" defaultValue={size} onChange={handleSizeChange}>
           <option value="Small">S</option>
           <option value="Medium">M</option>
           <option value="Large">L</option>
@@ -53,13 +68,11 @@ function MyCartItemCard({myCartItem}) {
       return(
         <select name="size" >
           <option value="NoSize">No Size</option>
-
         </select>
       )
     }
 
   }
-
 
 
   return (

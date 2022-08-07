@@ -7,11 +7,7 @@ import MyCartItemsContainer from "./MyCartItemsContainer";
 import UserInputContainer from "./UserInputContainer";
 import MyCartItemCard from "./MyCartItemCard";
 
-
-
-
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 
 // import '@fortawesome/fontawesome-svg-core/styles.css'
 
@@ -29,7 +25,6 @@ function MyCartPage() {
       document.body.removeChild(script);
     }
   }, []);
-
 
   const [myCart, setMyCart] = useState([])
 
