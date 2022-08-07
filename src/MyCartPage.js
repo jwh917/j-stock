@@ -3,6 +3,8 @@ import { ThemeContext } from "./theme";
 import LightDarkButton from "./LightDarkButton";
 import MyCartHeader from "./MyCartHeader";
 import CheckoutBar from "./CheckoutBar";
+import MyCartItemsContainer from "./MyCartItemsContainer";
+
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -57,13 +59,16 @@ function MyCart() {
       <MyCartHeader itemsCount={itemsCount}/>
 
 
-      {/* myCartItems container */}
-      <div className="col-25" style={{textAlign: "center"}}>
+      {/* myCartItemsContainer */}
+      <MyCartItemsContainer total={total}/>
+
+      {/* myCartItemsContainer */}
+      {/* <div className="col-25" style={{textAlign: "center"}}>
         <div>
           <hr></hr>
           <p>Total <span className="price" style={{"color": textStyle}}><b>${total}</b></span></p>
         </div>
-      </div>
+      </div> */}
   
       <br></br>
       <br></br>
@@ -135,9 +140,6 @@ function MyCart() {
 
         </form>
       </div>
-  
-
-
       
       <CheckoutBar total={total}/>
     </main>
