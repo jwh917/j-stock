@@ -94,6 +94,10 @@
       "itemUrl": "https://i5.walmartimages.com/asr/f8937e7c-55e9-4be8-a897-9018d5b69d94.b4186354f8ff4d98dc1960ab2d61c6b6.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
     }
   ],
-  "myCart": [],
-  "completedOrders": []
+  "myCart": [
+  
+  ],
+  "completedOrders": [
+
+  ]
 }
