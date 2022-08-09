@@ -9,7 +9,7 @@ import logo from './jStockSneakerBoxWall.png';
 
 
 
-function SearchPage({handleCatorgeyChange, itemSearch, sortHandleHighLow, sortHandleLowHigh, sortHighLow, sortLowHigh}) {
+function SearchBar({handleCatorgeyChange, itemSearch, sortHandleHighLow, sortHandleLowHigh, sortHighLow, sortLowHigh}) {
 
   const { theme } = useContext(ThemeContext);
 
@@ -28,7 +28,7 @@ function SearchPage({handleCatorgeyChange, itemSearch, sortHandleHighLow, sortHa
 
   return (
     <main>
-      <div className="container-fluid" style={{position: "fixed", top:"0"}}>
+      <div className="container-fluid" id="searchBarContainer">
         
         
         <section className="header-main border-bottom bg-white">
@@ -39,7 +39,7 @@ function SearchPage({handleCatorgeyChange, itemSearch, sortHandleHighLow, sortHa
 
                     </div>
                     <div className="col-md-8">
-                      <div className="d-flex form-inputs" style={{width: "600px", height:"50px"}}>
+                      <div className="d-flex form-inputs" id="searchBar">
       
                         <input className="form-control" type="text" placeholder="Search any item..." onChange={itemSearch}/>
                       </div>
@@ -51,7 +51,7 @@ function SearchPage({handleCatorgeyChange, itemSearch, sortHandleHighLow, sortHa
                   <br></br>
                     
                     {/* Personal divs and hover css */}
-                    <div style={{textAlign: "center", position: "relative"}}>
+                    <div className="tabsContainer">
 
                       <Tabs id="controlled-tab-example" activeKey={key} onSelect={knowKey} className="mb-3">
                         <Tab eventKey="All" title="All"></Tab>                        
@@ -87,17 +87,17 @@ function SearchPage({handleCatorgeyChange, itemSearch, sortHandleHighLow, sortHa
 
                     <div>
                       {/* j stock logo */}
-                      <img src={logo} alt="logo" style={{ height: "150px", width: "350px"}}/>
+                      <img src={logo} alt="logo" id="jStockLogo"/>
                     </div>
                     
-                    <div className={`badge bg-${themeColor}`} style={{ borderRadius: "5px"}}>
+                    <div className={`badge bg-${themeColor}`} id="sortBadge">
                       Sort Prices
 
                       <br></br>
                       <br></br>
 
                       {sortHighLow ? (
-                        <button onClick={sortHandleHighLow} style={{ color: "blue"}} className="btn btn-light">(High to Low) ⬆️</button>
+                        <button onClick={sortHandleHighLow} id="activeButton" className="btn btn-light">(High to Low) ⬆️</button>
                       ) : (
                         <button onClick={sortHandleHighLow} className="btn btn-light">(High to Low) ⬆️</button>
                       )}
@@ -106,7 +106,7 @@ function SearchPage({handleCatorgeyChange, itemSearch, sortHandleHighLow, sortHa
                       <br></br>
 
                       {sortLowHigh ? (
-                        <button onClick={sortHandleLowHigh} style={{ color: "blue"}} className="btn btn-light">(Low to High) ⬇️</button>
+                        <button onClick={sortHandleLowHigh} id="activeButton" className="btn btn-light">(Low to High) ⬇️</button>
                       ) : (
                         <button onClick={sortHandleLowHigh} className="btn btn-light">(Low to High) ⬇️</button>
                       )}
@@ -127,4 +127,4 @@ function SearchPage({handleCatorgeyChange, itemSearch, sortHandleHighLow, sortHa
   );
 }
 
-export default SearchPage;
+export default SearchBar;

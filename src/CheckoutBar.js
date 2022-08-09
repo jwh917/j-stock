@@ -14,11 +14,11 @@ function CheckoutBar({total}) {
   return (
     <main >
       <div>
-        <Badge className={`badge bg-${badgeStyle}`} style={{width:"100%", height:"180px", marginTop:"150px", position: "absolute"}} >         
+        <Badge className={`badge bg-${badgeStyle}`} id="checkoutBarBadge">         
           <div>
             <h3> Delivery Cost: FREE</h3>
             <h2> Total: ${total}</h2>
-            <Button className="btn btn-light" style={{width:"150px", height:"40px"}} type="submit" form="my-form"> Checkout </Button>
+            <Button className="btn btn-light" id="checkoutBarButton" type="submit" form="my-form"> Checkout </Button>
           </div>
         </Badge>
       </div>

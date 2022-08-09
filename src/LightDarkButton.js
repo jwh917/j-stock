@@ -19,9 +19,9 @@ function LightDarkButton() {
   return (
   <div>
     {theme ? 
-      <Button type="button" className="btn btn-secondary" onClick={handleDarkModeClick} id="lightDark"><i className="bi bi-moon-fill" style={{ fontSize: 20}}></i></Button> 
+      <Button type="button" className="btn btn-secondary" onClick={handleDarkModeClick} id="lightDark"><i className="bi bi-moon-fill" id="lightDarkMoon" ></i></Button> 
         : 
-      <Button type="button" className="btn btn-success" onClick={handleDarkModeClick} id="lightDark"><i className="bi bi-brightness-high-fill" style={{ fontSize: 21 }}></i></Button>
+      <Button type="button" className="btn btn-success" onClick={handleDarkModeClick} id="lightDark"><i className="bi bi-brightness-high-fill" id="lightDarkSun" ></i></Button>
     }
   </div>
   );

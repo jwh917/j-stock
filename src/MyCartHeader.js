@@ -8,10 +8,9 @@ function MyCartHeader({itemsCount}) {
   return (
     <main >
       <div>
-        <h1 style={{textAlign: "center"}}> <i className="bi bi-cart-fill"></i> MyCart</h1>
-        <p style={{textAlign: "center"}}>{itemsCount} Items</p>
+        <h1 className="myCartHeader"> <i className="bi bi-cart-fill"></i> MyCart</h1>
+        <p className="myCartHeader">{itemsCount} Items</p>
       </div>
-
     </main>
   );
 }

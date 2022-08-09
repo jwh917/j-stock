@@ -7,7 +7,7 @@ function UserInputContainer({fullNameInput, emailInput, addressInput, cityInput,
 
   return (
     <main >
-      <div className="container">
+      <div className="userInputContainer">
         <form action="/action_page.php" id="my-form" onSubmit={formSumbitHandle}>
         {/* <form id="my-form" onSubmit={formSumbitHandle}> */}
 
@@ -42,10 +42,10 @@ function UserInputContainer({fullNameInput, emailInput, addressInput, cityInput,
             <h3>Payment</h3>
             <label htmlFor="fname">Accepted Cards</label>
             <div className="icon-container">
-              <i className="fa fa-cc-visa" style={{color:"navy"}}></i>
-              <i className="fa fa-cc-amex" style={{color:"blue"}}></i>
-              <i className="fa fa-cc-mastercard" style={{color:"red"}}></i>
-              <i className="fa fa-cc-discover" style={{color:"orange"}}></i>
+              <i className="fa fa-cc-visa" id="visaCard"></i>
+              <i className="fa fa-cc-amex" id="amexCard"></i>
+              <i className="fa fa-cc-mastercard" id="masterCard"></i>
+              <i className="fa fa-cc-discover" id="discoverCard"></i>
             </div>
               <label htmlFor="cname">Name on Card</label>
               <input type="text" id="cname" name="cardname" placeholder="John More Doe" onChange={cardNameInput}/>

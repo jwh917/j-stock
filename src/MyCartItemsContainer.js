@@ -12,11 +12,11 @@ function MyCartItemsContainer({total, myCartItems}) {
 
   return (
     <main >
-      <div className="col-25" style={{textAlign: "center"}}>
+      <div className="col-25" id="myCartItemsContainer" >
         <div>
           {myCartItems}
           <hr></hr>
-          <p>Total <span className="price" style={{"color": textStyle}}><b>${total}</b></span></p>
+          <p>Total <span style={{"color": textStyle}}><b>${total}</b></span></p>
         </div>
       </div>
     </main>

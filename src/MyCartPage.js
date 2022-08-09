@@ -152,21 +152,7 @@ function MyCartPage() {
     // clear form
     event.target.reset()
       // clear myCart Array
-      // return to home page
-
-      
-          fetch("http://localhost:3000/myCart", {
-            method: "PATCH",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify([]),
-          })
-            .then((r) => r.json())
-            .then((data) => console.log(data));
-      
-      
-
+      // return to home page and take out php action
   }
 
   return (

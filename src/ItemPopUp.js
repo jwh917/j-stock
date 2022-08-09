@@ -21,10 +21,6 @@ function ItemPopUp({togglePopUp, isOpen, itemDisplayed}) {
   console.log(size)
 
 
-
-
-
-
   if(isOpen) {
     document.body.classList.add('active-modal')
   } else {
@@ -41,23 +37,16 @@ function ItemPopUp({togglePopUp, isOpen, itemDisplayed}) {
 
   const {name, category, color, itemUrl, buy, sell, price, productDetails, retailPrice, releaseDate} = itemDisplayed
 
-  function addToCart(event){
-    // console.log(event)
-    // console.log(itemDisplayed)
-    // console.log(size)
+  function addToCart(){
 
     const newCartItem = {
       item: itemDisplayed,
       size: size,
     }
-    
-    
 
     // size 7 or small (default sizes) need to be re choosen
 
     if((newCartItem.item.category === "sneakers" && newCartItem.size === "") || (newCartItem.item.category === "apparel" && newCartItem.size === "")) return
-
- 
 
 
     fetch("http://localhost:3000/myCart", {
@@ -71,7 +60,6 @@ function ItemPopUp({togglePopUp, isOpen, itemDisplayed}) {
       .then((newCartItemData) => console.log(newCartItemData));
 
   }
-
 
 
 
@@ -141,38 +129,36 @@ function ItemPopUp({togglePopUp, isOpen, itemDisplayed}) {
   
 
   return (
-    <div >
-    
-
+    <div>
        <div className="popup-box">
          <div className="box">
 
-          <h1 style={{textAlign: "center"}}>{name}</h1>
-          <p style={{textAlign: "center"}}>{color}</p>
+          <h1 className="popupHeader">{name}</h1>
+          <p className="popupHeader">{color}</p>
 
           <div className="buySellGrid">
-            <Badge className={`badge bg-${style}`} style={{"color":headerStyle, width:"100px", height:"30px"}}>
+            <Badge className={`badge bg-${style}`} id="buySellGridBadges1" style={{"color":headerStyle}}>
               BUY: <br></br>
               ${buy}
             </Badge>
-            <Badge className={`badge bg-${style}`} style={{"color":headerStyle, width:"100px", height:"30px"}}>
+            <Badge className={`badge bg-${style}`} id="buySellGridBadges1" style={{"color":headerStyle}}>
               SELL: <br></br> 
               ${sell}
             </Badge>
           </div>
           <div>
-            <Badge className={`badge bg-${style}`} style={{"color":headerStyle, width:"100px", height:"20px"}}>
+            <Badge className={`badge bg-${style}`} id="buySellGridBadges2" style={{"color":headerStyle}}>
               Authhentic
             </Badge>
 
-            <Badge className={`badge bg-${style}`} style={{"color":headerStyle, width:"100px", height:"20px"}}>
+            <Badge className={`badge bg-${style}`} id="buySellGridBadges2" style={{"color":headerStyle}}>
               New
             </Badge>              
           </div>
 
-          <div style={{textAlign: "center"}}>
+          <div className="clickedItem">
     
-            <img src={itemUrl} alt="item pic" style={{width: "300px", height: "220px"	 }}/>
+            <img src={itemUrl} alt="item pic"/>
           </div>
 
             <div>
@@ -182,9 +168,8 @@ function ItemPopUp({togglePopUp, isOpen, itemDisplayed}) {
               <p>Retail Price: ${retailPrice}</p>
             </div>
 
-            <div style={{position:"relative", marginLeft: "550px", top:"-70px"}}>
+            <div className="clickedItemInfo">
               {/* Add to cart button with send post request to  cart array in json file put all info from item and size if so  */}
-
 
               {/* Category part of db.json was Aug. 7th, needed it for this part */}
               <h5>Size</h5>

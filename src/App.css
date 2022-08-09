@@ -1,3 +1,4 @@
+/* Light/Dark*/
 #lightDark{
   position:fixed;
   top:0;
@@ -6,6 +7,16 @@
   height: 48px;
 }
 
+#lightDarkMoon{
+  font-size: 20;
+}
+
+#lightDarkSun{
+  font-size: 21;
+}
+
+
+/* Ads Carousel */
 .adsCarousel{
   position:relative; 
   top: 70px;
@@ -15,6 +26,13 @@
   width: 100%;
 }
 
+#adsCarouselImg {
+  width: 460px; 
+  height: 345px;
+}
+
+
+/* Category Badges */
 .categoryBadges{
   position:relative; 
   top: 115px;
@@ -35,6 +53,7 @@
   height: 50px;
 }
 
+/* Items Carousel */
 .itemsCarousel{
   position:relative; 
   top: 150px;
@@ -44,7 +63,7 @@
 }
 
 
-
+/* Brands Badges */
 .brandsBadges{
   position:relative; 
   top: 115px;
@@ -66,51 +85,13 @@
   display: grid;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 15px;
+#brandsBadgesSize{
+  width: 250px; 
+  height: 200px;
 }
 
 
-.bottom-cont{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  position: fixed;
-
-}
-
-.bottom-nav {
-  width: 100%;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  bottom: 0;
-  border-top: 3px solid rgb(230, 230, 230);
-  background-color: lightgray;
-
-}
-
-.bn-tab {
-  width: 25%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.vl {
-  border-left: 3px solid darkgray;
-  height: 50px;
-}
-
-
-/* Popup style */
-
-
+/* Items Pop Up */
 .popup-box {
   position: fixed;
   background: #00000050;
@@ -118,6 +99,10 @@
   height: 120vh;
   top: 0;
   left: 0;
+}
+
+.popupHeader{
+  text-align: center;
 }
 
 .box {
@@ -143,7 +128,6 @@
   font-size: 20px;
 } 
 
-
 .buySellGrid{
   display: flex;
   justify-content: space-between;
@@ -151,7 +135,61 @@
   padding: 15px;
 }
 
+#buySellGridBadges1{
+  width: 100px;
+  height: 30px;
+}
 
+#buySellGridBadges2{
+  width: 100px;
+  height: 20px;
+}
+
+.clickedItem{
+  text-align: center;
+}
+
+.clickedItem img{
+  width: 300px;
+  height: 220px;	
+}
+
+.clickedItemInfo{
+  position: relative;
+  margin-left: 550px;
+  top: -70px;
+}
+
+#searchBarContainer{
+  position: fixed;
+  top: 0;
+}
+
+#searchBar{
+  width: 650px;
+  height: 50px;
+}
+
+.tabsContainer{
+  text-align: center;
+  position: relative;
+}
+
+#jStockLogo{
+  height: 150px;
+  width: 350px;
+}
+
+#sortBadge{
+  border-radius: 5px;
+}
+
+#activeButton{
+  color: blue;
+}
+
+
+/* Search Container */
 .searchContainer{
   margin: 400px 150px; 
   position: relative;
@@ -166,4 +204,104 @@
 }
 
 
+/* Profile Page */
 
+.profileHeader{
+  text-align: center;
+}
+
+.profileOption{
+  position: relative;
+  margin-left: 20px;
+}
+
+.profileOption p{
+  position: relative;
+  margin-left: 20px;
+}
+
+
+/* My Cart */
+.myCartHeader{
+  text-align: center;
+}
+
+#myCartItemsContainer{
+  text-align: center;
+}
+
+
+/*My Cart User Input  */
+.userInputContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+}
+
+#visaCard{
+  color: navy;
+}
+
+#amexCard{
+  color: blue;
+}
+
+#masterCard{
+  color: red;
+}
+
+#discoverCard{
+  color: orange;
+}
+
+/* CHeckout Bar */
+
+#checkoutBarBadge{
+  width: 100%;
+  height: 180px;
+  margin-top: 150px;
+  position: absolute;
+}
+
+#checkoutBarButton{
+  width: 150px;
+  height: 40px;
+}
+
+
+/* Nav Bar */
+#iconSize{
+  font-size: 20px;
+}
+
+.bottom-cont{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  position: fixed;
+}
+
+.bottom-nav {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  border-top: 3px solid rgb(230, 230, 230);
+  background-color: lightgray;
+}
+
+.bn-tab {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vl {
+  border-left: 3px solid darkgray;
+  height: 50px;
+}

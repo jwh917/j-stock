@@ -12,7 +12,6 @@ const linkStyles = {
   color: "grey",
 };
 
-
 function NavBar() {
 
   return (
@@ -30,7 +29,7 @@ function NavBar() {
             }}
             >
               {/* home tab */}
-              <i className="bi bi-house" style={{ fontSize: 20 }}></i>
+              <i className="bi bi-house" id="iconSize"></i>
             </NavLink>
           </div>
 
@@ -46,7 +45,7 @@ function NavBar() {
             }}
             >
               {/* search tab */}
-              <i className="bi bi-search" style={{ fontSize: 20 }}></i>
+              <i className="bi bi-search" id="iconSize"></i>
             </NavLink>
           </div>
 
@@ -62,7 +61,7 @@ function NavBar() {
             }}
             >
               {/* profile tab */}
-              <i className="bi bi-person-square" style={{ fontSize: 20 }}></i>
+              <i className="bi bi-person-square" id="iconSize"></i>
             </NavLink>
           </div>
 
@@ -78,7 +77,7 @@ function NavBar() {
             }}
             >
               {/* cart tab */}
-                <i className="bi bi-cart4" style={{ fontSize: 20 }}></i>  
+                <i className="bi bi-cart4" id="iconSize"></i>  
             </NavLink>
           </div>
 
