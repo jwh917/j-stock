@@ -169,7 +169,7 @@ function ItemPopUp({togglePopUp, isOpen, itemDisplayed}) {
             </div>
 
             <div className="clickedItemInfo">
-              {/* Add to cart button with send post request to  cart array in json file put all info from item and size if so  */}
+              {/* Add to cart button with send post request to cart array in json file put all info from item and size if so  */}
 
               {/* Category part of db.json was Aug. 7th, needed it for this part */}
               <h5>Size</h5>

@@ -2,21 +2,22 @@
   "sneakers": [
     {
       "id": 1,
-	"category": "sneakers",
+      "category": "sneakers",
       "name": "Jordan 11",
       "brand": "Jordan",
       "color": "Cool Grey",
       "colorWay": "Medium Grey/Multi- Color/Multi-Color",
       "buy": 211,
-      "sell":347,
+      "sell": 347,
       "price": 278,
       "retailPrice": 225,
       "releaseDate": "12/31/22",
       "productDetails": "Since its debut in 2001, the Air Jordan 11 Cool Grey",
       "itemUrl": "https://cdn.flightclub.com/1500/TEMPLATE/248952/1.jpg"
-    },    {
+    },
+    {
       "id": 2,
-	"category": "sneakers",
+      "category": "sneakers",
       "name": "Jordan 1 Low",
       "brand": "Jordan",
       "color": "Fragment x Travis Scott",
@@ -28,9 +29,10 @@
       "releaseDate": "8/13/21",
       "productDetails": "The Air Jordan 1 Low Fragment Design x Travis Scott nods to the original 2016 Air Jordan 1 Fragment with its simple color blocking.",
       "itemUrl": "https://cdn.flightclub.com/1250/TEMPLATE/267414/1.jpg"
-    },    {
+    },
+    {
       "id": 3,
-	"category": "sneakers",
+      "category": "sneakers",
       "name": "Jordan 1 Retro High",
       "brand": "Jordan",
       "color": "Hyper Royal Smoke Grey",
@@ -42,9 +44,10 @@
       "releaseDate": "4/17/21",
       "productDetails": "Jordan Brand added a new colorway to their Jordan 1 catalog in the spring of 2021 with the Air Jordan 1 Hyper Royal.",
       "itemUrl": "https://cdn.flightclub.com/1250/TEMPLATE/189347/1.jpg"
-    },    {
+    },
+    {
       "id": 4,
-	"category": "sneakers",
+      "category": "sneakers",
       "name": "Jordan 6 Retro",
       "brand": "Jordan",
       "color": "Carmine (2021)",
@@ -56,9 +59,10 @@
       "releaseDate": "2/13/21",
       "productDetails": "The Air Jordan 6 Carmine returned in its original form in 2021. The nearly 20-year-old colorway first made its appearance in 1991 during Michael Jordan's '91-'92 season.",
       "itemUrl": "https://cdn.flightclub.com/1250/TEMPLATE/186762/1.jpg"
-    },    {
+    },
+    {
       "id": 5,
-	"category": "sneakers",
+      "category": "sneakers",
       "name": "Jordan 1 Retro High",
       "brand": "Jordan",
       "color": "Off-White University Blue",
@@ -70,9 +74,10 @@
       "releaseDate": "6/23/18",
       "productDetails": "Time for some Tobacco Road vibes with these Jordan 1 Retro Off-Whites. Also known as the UNC editions, these Jordan 1s are the third colorway designed by Virgil Abloh.",
       "itemUrl": "https://cdn.flightclub.com/1250/TEMPLATE/804093/1.jpg"
-    },    {
+    },
+    {
       "id": 6,
-	"category": "sneakers",
+      "category": "sneakers",
       "name": "Jordan 4 Retro",
       "brand": "Jordan",
       "color": "Off-White Sail",
@@ -84,9 +89,10 @@
       "releaseDate": "7/25/20",
       "productDetails": "Jordan Brand and Virgil Abloh teamed up once again to release the third silhouette in their collaborative history with the women's Jordan 4 Retro Off-White Sail.",
       "itemUrl": "https://cdn.flightclub.com/1250/TEMPLATE/174409/1.jpg"
-    },    {
+    },
+    {
       "id": 7,
-	"category": "sneakers",
+      "category": "sneakers",
       "name": "Adidas Yeezy Boost 700 Wave Runner",
       "brand": "Adidas",
       "color": "Solid Grey",
@@ -98,9 +104,10 @@
       "releaseDate": "11/1/17",
       "productDetails": "The Yeezy 700 Boost Wave Runner is the shoe that led Yeezy's pivot from a sleek, minimal aesthetic to a chunky, 90s inspired one.",
       "itemUrl": "https://cdn.flightclub.com/1250/TEMPLATE/802501/1.jpg"
-    },    {
+    },
+    {
       "id": 8,
-	"category": "sneakers",
+      "category": "sneakers",
       "name": "Adidas Yeezy Boost 350 V2",
       "brand": "Adidas",
       "color": "Beluga Reflective",
@@ -112,9 +119,10 @@
       "releaseDate": "12/18/21",
       "productDetails": "One of Yeezy's most celebrated designs received a reflective makeover with the adidas Yeezy Boost 350 V2 Beluga Reflective",
       "itemUrl": "https://cdn.flightclub.com/1250/TEMPLATE/289333/1.jpg"
-    },    {
+    },
+    {
       "id": 9,
-	"category": "sneakers",
+      "category": "sneakers",
       "name": "Adidas Yeezy Desert Boot",
       "brand": "Adidas",
       "color": "Rock",
@@ -126,9 +134,10 @@
       "releaseDate": "4/13/19",
       "productDetails": "The adidas Yeezy Desert Boot Rock features a beige mesh upper with tonal nubuck and suede overlays. From there, a matching grooved sole provides traction and stability.",
       "itemUrl": "https://cdn.flightclub.com/1250/TEMPLATE/139789/1.jpg"
-    },    {
+    },
+    {
       "id": 10,
-	"category": "sneakers",
+      "category": "sneakers",
       "name": "Adidas Yeezy Foam RNNR",
       "brand": "Adidas",
       "color": "MXT Moon Gray",
@@ -140,9 +149,10 @@
       "releaseDate": "3/26/21",
       "productDetails": "DISCLAIMER: US and UK sizing is the same and does not require any conversion.",
       "itemUrl": "https://cdn.flightclub.com/1250/TEMPLATE/260871/1.jpg"
-    },    {
+    },
+    {
       "id": 11,
-	"category": "sneakers",
+      "category": "sneakers",
       "name": "Adidas Yeezy Boost 750",
       "brand": "Adidas",
       "color": "Triple Black",
@@ -154,9 +164,10 @@
       "releaseDate": "12/19/15",
       "productDetails": "",
       "itemUrl": "https://cdn.flightclub.com/1250/TEMPLATE/201169/1.jpg"
-    },    {
+    },
+    {
       "id": 12,
-	"category": "sneakers",
+      "category": "sneakers",
       "name": "Adidas NMD HU",
       "brand": "Adidas",
       "color": "Pharrell Human Race Yellow",
@@ -168,9 +179,10 @@
       "releaseDate": "7/22/16",
       "productDetails": "",
       "itemUrl": "https://cdn.flightclub.com/1250/TEMPLATE/201357/1.jpg"
-    },    {
+    },
+    {
       "id": 13,
-	"category": "sneakers",
+      "category": "sneakers",
       "name": "New Balance 999",
       "brand": "New Balance",
       "color": "Concepts The Kennedy",
@@ -182,9 +194,10 @@
       "releaseDate": "4/16/11",
       "productDetails": "",
       "itemUrl": "https://cdn.flightclub.com/1250/TEMPLATE/300224/1.jpg"
-    },    {
+    },
+    {
       "id": 14,
-	"category": "sneakers",
+      "category": "sneakers",
       "name": "New Balance 992",
       "brand": "New Balance",
       "color": "Joe Freshgoods No Emotions Are Emotion",
@@ -199,7 +212,7 @@
     },
     {
       "id": 15,
-	"category": "sneakers",
+      "category": "sneakers",
       "name": "New Balance 550",
       "brand": "New Balance",
       "color": "Cool Grey",
@@ -214,7 +227,7 @@
     },
     {
       "id": 16,
-	"category": "sneakers",
+      "category": "sneakers",
       "name": "New Balance 2002R",
       "brand": "New Balance",
       "color": "Protection Pack Rain Cloud",
@@ -226,9 +239,10 @@
       "releaseDate": "8/20/21",
       "productDetails": "The New Balance 2002R Protection Pack Rain Cloud features a grey mesh upper with tonal jagged suede overlays and a reflective New Balance logo.",
       "itemUrl": "https://cdn.flightclub.com/1250/TEMPLATE/275138/1.jpg"
-    },{
+    },
+    {
       "id": 17,
-	"category": "sneakers",
+      "category": "sneakers",
       "name": "Nike Dunk Low Retro",
       "brand": "Nike",
       "color": "White Black Panda (2021)",
@@ -240,9 +254,10 @@
       "releaseDate": "3/10/21",
       "productDetails": "From the school-spirited College Colors Program to the vibrant Nike CO.JP collection, Nike Dunks have seen many colorways since the design's inception in 1985.",
       "itemUrl": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/071/445/310/original/719082_01.jpg.jpeg?action=crop&width=700"
-    },{
+    },
+    {
       "id": 18,
-	"category": "sneakers",
+      "category": "sneakers",
       "name": "Nike LD Waffle",
       "brand": "Nike",
       "color": "Sacai Blue Mult",
@@ -254,9 +269,10 @@
       "releaseDate": "5/30/19",
       "productDetails": "Please note: extra black laces may or may not be included. Might need more drip than syrup after copping the Nike LD Waffle Sacai Blue Multi.",
       "itemUrl": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/019/246/228/original/491897_01.jpg.jpeg?action=crop&width=700"
-    },{
+    },
+    {
       "id": 19,
-	"category": "sneakers",
+      "category": "sneakers",
       "name": "Nike Dunk SB Low",
       "brand": "Nike",
       "color": "What the Dunk",
@@ -268,9 +284,10 @@
       "releaseDate": "10/1/07",
       "productDetails": "",
       "itemUrl": "https://cdn.flightclub.com/1250/TEMPLATE/080347/1.jpg"
-    },{
+    },
+    {
       "id": 20,
-	"category": "sneakers",
+      "category": "sneakers",
       "name": "Nike Air VaporMax Moc",
       "brand": "Nike",
       "color": "Triple Black",
@@ -287,21 +304,22 @@
   "apparel": [
     {
       "id": 1,
-	"category": "apparel",
+      "category": "apparel",
       "name": "Kith Spider-Man NYC Vintage T",
       "brand": "Kith",
       "color": "White",
-	 "colorWay": "White",
+      "colorWay": "White",
       "buy": 114,
       "sell": 125,
       "price": 115,
       "retailPrice": 72,
       "releaseDate": "07/15/2022",
-	 "productDetails": "",
+      "productDetails": "",
       "itemUrl": "https://images.stockx.com/images/Kith-Marvel-Spider-Man-New-York-City-Vintage-Tee-White.jpg?fit=fill&bg=FFFFFF&w=480&h=320&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1657893744&q=75"
-    },    {
+    },
+    {
       "id": 2,
-	"category": "apparel",
+      "category": "apparel",
       "name": "Fear of God Essentials T",
       "brand": "Essentials",
       "color": "Seafoam",
@@ -313,9 +331,10 @@
       "releaseDate": "3/10/22",
       "productDetails": "Released as part of the Fear of God Essentials Spring/Summer 2022 collection, this seafoam Fear of God Essentials T-shirt is made from a 100% cotton material and features.",
       "itemUrl": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/069/883/439/original/918625_01.jpg.jpeg?action=crop&width=700"
-    },    {
+    },
+    {
       "id": 3,
-	"category": "apparel",
+      "category": "apparel",
       "name": "Fear of God Essentials Sweatshort",
       "brand": "Essentials",
       "color": "Stretch Limo",
@@ -327,9 +346,10 @@
       "releaseDate": "6/15/22",
       "productDetails": "",
       "itemUrl": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/073/921/799/original/986341_01.jpg.jpeg?action=crop&width=700"
-    },    {
+    },
+    {
       "id": 4,
-	"category": "apparel",
+      "category": "apparel",
       "name": "Kith Star Wars C-3PO Crewneck",
       "brand": "Kith",
       "color": "Waffle",
@@ -341,9 +361,10 @@
       "releaseDate": "12/20/21",
       "productDetails": "",
       "itemUrl": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/066/557/331/original/887855_01.jpg.jpeg?action=crop&width=700"
-    },    {
+    },
+    {
       "id": 5,
-	"category": "apparel",
+      "category": "apparel",
       "name": "Kith Nike for New York Knicks Pant",
       "brand": "Kith",
       "color": "Black",
@@ -355,9 +376,10 @@
       "releaseDate": "12/25/21",
       "productDetails": "",
       "itemUrl": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/070/965/435/original/930657_01.jpg.jpeg?action=crop&width=700"
-    },    {
+    },
+    {
       "id": 6,
-	"category": "apparel",
+      "category": "apparel",
       "name": "Travis Scott Cactus Jack + Kaws For Fragment T",
       "brand": "Travis Scott",
       "color": "Aged Yellow",
@@ -369,9 +391,10 @@
       "releaseDate": "7/28/21",
       "productDetails": "This Travis Scott x KAWS x Fragment T-shirt was made available during the Summer of 2021 as a part of the artist's collaborative merch collection.",
       "itemUrl": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/058/121/639/original/802078_01.jpg.jpeg?action=crop&width=700"
-    },    {
+    },
+    {
       "id": 7,
-	"category": "apparel",
+      "category": "apparel",
       "name": "Travis Scott Cactus Jack For Fragment Sunrise Beanie",
       "brand": "Travis Scott",
       "color": "Multi",
@@ -383,9 +406,10 @@
       "releaseDate": "7/28/21",
       "productDetails": "",
       "itemUrl": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/058/121/697/original/802089_01.jpg.jpeg?action=crop&width=700"
-    },    {
+    },
+    {
       "id": 8,
-	"category": "apparel",
+      "category": "apparel",
       "name": "Supreme Washed Chino Twill Camp Cap",
       "brand": "Supreme",
       "color": "Red Tartan",
@@ -397,9 +421,10 @@
       "releaseDate": "8/20/20",
       "productDetails": "",
       "itemUrl": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/042/007/902/original/675044_01.jpg.jpeg?action=crop&width=700"
-    },    {
+    },
+    {
       "id": 9,
-	"category": "apparel",
+      "category": "apparel",
       "name": "Supreme The North Face By Any Means Nuptse Jacket",
       "brand": "Supreme",
       "color": "Black",
@@ -411,9 +436,10 @@
       "releaseDate": "1/19/15",
       "productDetails": "The adidas Yeezy Desert Boot Rock features a beige mesh upper with tonal nubuck and suede overlays. From there, a matching grooved sole provides traction and stability.",
       "itemUrl": "https://image.goat.com/transform/v1/attachments/product_template_pictures/images/034/074/552/original/588783_00.png.png?action=crop&width=700"
-    },    {
+    },
+    {
       "id": 10,
-	"category": "apparel",
+      "category": "apparel",
       "name": "KAWS Holiday Changbai Mountain Hoodie",
       "brand": "KAWS",
       "color": "Grey",
@@ -425,9 +451,10 @@
       "releaseDate": "1/7/22",
       "productDetails": "",
       "itemUrl": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/061/471/255/original/830050_01.jpg.jpeg?action=crop&width=700"
-    },    {
+    },
+    {
       "id": 11,
-	"category": "apparel",
+      "category": "apparel",
       "name": "Pop Smoke x Vlone Chain T",
       "brand": "Vlone",
       "color": "Black",
@@ -439,9 +466,10 @@
       "releaseDate": "2/15/21",
       "productDetails": "",
       "itemUrl": "https://shop-popsmoke.com/wp-content/uploads/POP%20SMOKE/POP%20SMOKE%20X%20VLONE%20CHAIN%20T-SHIRT%20I/pop-smoke-x-vlone-chain-t-shirt-i-1.png"
-    },    {
+    },
+    {
       "id": 12,
-	"category": "apparel",
+      "category": "apparel",
       "name": "Saint MxxxxxxX VLONE Sweat Shorts",
       "brand": "Vlone",
       "color": "White",
@@ -453,9 +481,10 @@
       "releaseDate": "4/9/22",
       "productDetails": "",
       "itemUrl": "https://images.stockx.com/images/Saint-Mxxxxxx-x-VLONE-Sweat-Shorts-White.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1649224122"
-    },    {
+    },
+    {
       "id": 13,
-	"category": "apparel",
+      "category": "apparel",
       "name": "Kith & Nike for New York Knicks AOP Hoodie",
       "brand": "Kith",
       "color": "Orange",
@@ -467,9 +496,10 @@
       "releaseDate": "12/18/20",
       "productDetails": "",
       "itemUrl": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/072/414/624/original/944951_01.jpg.jpeg?action=crop&width=700"
-    },    {
+    },
+    {
       "id": 14,
-	"category": "apparel",
+      "category": "apparel",
       "name": "Fear of God Essentials Denim Trucker Jacket",
       "brand": "Essentials",
       "color": "Distressed Indigo",
@@ -484,7 +514,7 @@
     },
     {
       "id": 15,
-	"category": "apparel",
+      "category": "apparel",
       "name": "KAWS x Uniglo x Sesame Street Sweatshirt",
       "brand": "KAWS",
       "color": "Natural",
@@ -499,7 +529,7 @@
     },
     {
       "id": 16,
-	"category": "apparel",
+      "category": "apparel",
       "name": "Nav x Vlone Doves Hoodie",
       "brand": "Vlone",
       "color": "Purple",
@@ -516,7 +546,7 @@
   "electronics": [
     {
       "id": 1,
-	"category": "electronics",
+      "category": "electronics",
       "name": "Sony PS5",
       "brand": "Sony",
       "color": "White",
@@ -527,9 +557,10 @@
       "releaseDate": "11/12/20",
       "productDetails": "Experience next-gen gaming with the The SonyPlaystation 5 Blu-Ray Edition console.",
       "itemUrl": "https://i5.walmartimages.com/asr/2d7d7f63-fbd3-4892-a633-f371b7c948a5.e3656c58c60bfd68e74804868cb51b55.png?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
-    },{
+    },
+    {
       "id": 2,
-	"category": "electronics",
+      "category": "electronics",
       "name": "Sony PlayStation VR Headset Bundle",
       "brand": "Sony",
       "color": "White/Black",
@@ -541,9 +572,10 @@
       "releaseDate": "7/22/20",
       "productDetails": "The PlayStation x Marvel Iron Man VR Headset Bundle is a packed gaming bundle developed by SONY in collaboration with Marvel.",
       "itemUrl": "https://i5.walmartimages.com/asr/f8937e7c-55e9-4be8-a897-9018d5b69d94.b4186354f8ff4d98dc1960ab2d61c6b6.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
-    },    {
+    },
+    {
       "id": 3,
-	"category": "electronics",
+      "category": "electronics",
       "name": "Microsoft Xbox X",
       "brand": "Microsoft",
       "color": "Black",
@@ -555,9 +587,10 @@
       "releaseDate": "11/10/20",
       "productDetails": "Following the Xbox One, the Microsoft Xbox Series X (US Plug) is the latest generation of the Xbox console. After the release, the Microsoft Xbox Series X (US Plug) was highly sought after.",
       "itemUrl": "https://i5.walmartimages.com/asr/fd9cc3cc-3533-4eec-a87d-e6abcc77aae7.0e7d395789bb5e75eb627b80cfe78b13.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
-    },    {
+    },
+    {
       "id": 4,
-	"category": "electronics",
+      "category": "electronics",
       "name": "Apple iPad 10.2”",
       "brand": "Apple",
       "color": "Space Gray",
@@ -569,9 +602,10 @@
       "releaseDate": "9/24/21",
       "productDetails": "",
       "itemUrl": "https://i5.walmartimages.com/asr/bb2bb6b8-7824-419c-8d3c-e4da96dd8ef3.fdf82267d3de61f9f9039d596ea86bba.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
-    },    {
+    },
+    {
       "id": 5,
-	"category": "electronics",
+      "category": "electronics",
       "name": "Apple TV 4K",
       "brand": "Apple",
       "color": "Space Gray/Black",
@@ -583,9 +617,10 @@
       "releaseDate": "5/30/21",
       "productDetails": "Retaining the original design, the Apple TV 4K (2nd Generation) now features a new processor and remote for a faster, more intuitive experience.",
       "itemUrl": "https://i5.walmartimages.com/asr/f3cdb5dd-2673-44a9-87c9-64250dba4082.7c6120ab98b4701293d8595b359a6e24.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
-    },    {
+    },
+    {
       "id": 6,
-	"category": "electronics",
+      "category": "electronics",
       "name": "Microsoft Xbox Wireless Headset",
       "brand": "Microsoft",
       "color": "Black",
@@ -597,9 +632,10 @@
       "releaseDate": "5/30/21",
       "productDetails": "It's time to take your gaming experience to the next level with the Microsoft Xbox Wireless Headset. This official Microsoft headset offers everything you need to play like a pro.",
       "itemUrl": "https://i5.walmartimages.com/asr/f8d7e4d5-cb3b-49e9-884e-d3aa55457d34.a931d2e5f683e7aadd8ff602baea0551.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
-    },    {
+    },
+    {
       "id": 7,
-	"category": "electronics",
+      "category": "electronics",
       "name": "Apple HomePod White",
       "brand": "Apple",
       "color": "White",
@@ -611,9 +647,10 @@
       "releaseDate": "2/9/18",
       "productDetails": "Despite having a small footprint, Apple HomePod speakers deliver a high quality audio experience perfect for any room in your home.",
       "itemUrl": "https://i5.walmartimages.com/asr/4fb1de30-75ec-4115-a9b6-64e255a7d1ad.4c7c7499fe527b38d169dd79a9e8ac09.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
-    },    {
+    },
+    {
       "id": 8,
-	"category": "electronics",
+      "category": "electronics",
       "name": "Sony PS5 Wireless Headset",
       "brand": "Sony",
       "color": "Black",
@@ -625,9 +662,10 @@
       "releaseDate": "11/12/20",
       "productDetails": "The PS5 Pluse 3D Wireless Headset features the Tempest 3D Audio Tech, which delivers the 3D audio. The headset also has redesigned earpads and a headband strap for added comfort.",
       "itemUrl": "https://i5.walmartimages.com/asr/abfacf16-1fba-4a5b-bd02-db124c291a19.cae03833a86bcdfab5acf4ad595644c0.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
-    },    {
+    },
+    {
       "id": 9,
-	"category": "electronics",
+      "category": "electronics",
       "name": "Microsoft Xbox Controller Charging Stand",
       "brand": "Microsoft",
       "color": "Phantom Magenta",
@@ -639,13 +677,138 @@
       "releaseDate": "4/24/20",
       "productDetails": "Please note: This product does not include an Xbox controller. Xbox controller sold separately.",
       "itemUrl": "https://images.stockx.com/images/Microsoft-Xbox-Pro-Controller-Gear-Charging-Stand-CSXBXXX1R-00PHM-Phantom-Magenta.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1627676671"
-    } 
+    }
   ],
   "myCart": [
-
-
-  ], 
-  "completedOrders": []
-
+    {
+      "item": {
+        "id": 2,
+        "category": "sneakers",
+        "name": "Jordan 1 Low",
+        "brand": "Jordan",
+        "color": "Fragment x Travis Scott",
+        "colorWay": "White/Black-Royal-Sail",
+        "buy": 1139,
+        "sell": 1850,
+        "price": 1824,
+        "retailPrice": 150,
+        "releaseDate": "8/13/21",
+        "productDetails": "The Air Jordan 1 Low Fragment Design x Travis Scott nods to the original 2016 Air Jordan 1 Fragment with its simple color blocking.",
+        "itemUrl": "https://cdn.flightclub.com/1250/TEMPLATE/267414/1.jpg"
+      },
+      "size": "10.5",
+      "id": 1
+    }
+  ],
+  "completedOrders": [
+    {
+      "fullName": "Julien Henry",
+      "email": "jwh_917@yahoo.com",
+      "address": "3 Goldsmith Ave.",
+      "city": "Greenlawn",
+      "state": "NY",
+      "zipCode": "11740",
+      "cardName": "1234",
+      "cardNum": "1234",
+      "expMon": "1234",
+      "expYr": "1234",
+      "cvv": "1234",
+      "myCart": [
+        {
+          "item": {
+            "id": 1,
+            "category": "electronics",
+            "name": "Sony PS5",
+            "brand": "Sony",
+            "color": "White",
+            "buy": 658,
+            "sell": 620,
+            "price": 656,
+            "retailPrice": 500,
+            "releaseDate": "11/12/20",
+            "productDetails": "Experience next-gen gaming with the The SonyPlaystation 5 Blu-Ray Edition console.",
+            "itemUrl": "https://i5.walmartimages.com/asr/2d7d7f63-fbd3-4892-a633-f371b7c948a5.e3656c58c60bfd68e74804868cb51b55.png?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+          },
+          "size": "",
+          "id": 1
+        },
+        {
+          "item": {
+            "id": 15,
+            "category": "apparel",
+            "name": "KAWS x Uniglo x Sesame Street Sweatshirt",
+            "brand": "KAWS",
+            "color": "Natural",
+            "colorWay": "Natural",
+            "buy": 128,
+            "sell": 63,
+            "price": 100,
+            "retailPrice": 30,
+            "releaseDate": "11/19/18",
+            "productDetails": "",
+            "itemUrl": "https://images.stockx.com/images/KAWS-x-Uniqlo-x-Sesame-Street-Group-2-Sweatshirt-US-Sizing-Natural.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1614779945"
+          },
+          "size": "Medium",
+          "id": 2
+        },
+        {
+          "item": {
+            "id": 5,
+            "category": "sneakers",
+            "name": "Jordan 1 Retro High",
+            "brand": "Jordan",
+            "color": "Off-White University Blue",
+            "colorWay": "White/Dark Powder Blue-Cone",
+            "buy": 1672,
+            "sell": 2675,
+            "price": 2418,
+            "retailPrice": 190,
+            "releaseDate": "6/23/18",
+            "productDetails": "Time for some Tobacco Road vibes with these Jordan 1 Retro Off-Whites. Also known as the UNC editions, these Jordan 1s are the third colorway designed by Virgil Abloh.",
+            "itemUrl": "https://cdn.flightclub.com/1250/TEMPLATE/804093/1.jpg"
+          },
+          "size": "10",
+          "id": 4
+        }
+      ],
+      "total": 2458,
+      "id": 1
+    },
+    {
+      "fullName": "Julien Henry",
+      "email": "jwh_917@yahoo.com",
+      "address": "3 Goldsmith Ave.",
+      "city": "Greenlawn",
+      "state": "NY",
+      "zipCode": "11740",
+      "cardName": "1234",
+      "cardNum": "1234",
+      "expMon": "1234",
+      "expYr": "1234",
+      "cvv": "1234",
+      "myCart": [
+        {
+          "item": {
+            "id": 2,
+            "category": "sneakers",
+            "name": "Jordan 1 Low",
+            "brand": "Jordan",
+            "color": "Fragment x Travis Scott",
+            "colorWay": "White/Black-Royal-Sail",
+            "buy": 1139,
+            "sell": 1850,
+            "price": 1824,
+            "retailPrice": 150,
+            "releaseDate": "8/13/21",
+            "productDetails": "The Air Jordan 1 Low Fragment Design x Travis Scott nods to the original 2016 Air Jordan 1 Fragment with its simple color blocking.",
+            "itemUrl": "https://cdn.flightclub.com/1250/TEMPLATE/267414/1.jpg"
+          },
+          "size": "10.5",
+          "id": 1
+        }
+      ],
+      "total": 1139,
+      "id": 2
+    }
+  ]
 }
-

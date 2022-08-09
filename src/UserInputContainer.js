@@ -7,9 +7,9 @@ function UserInputContainer({fullNameInput, emailInput, addressInput, cityInput,
 
   return (
     <main >
-      <div className="userInputContainer">
-        <form action="/action_page.php" id="my-form" onSubmit={formSumbitHandle}>
-        {/* <form id="my-form" onSubmit={formSumbitHandle}> */}
+      <div className="container">
+        {/* <form action="/action_page.php" id="my-form" onSubmit={formSumbitHandle}> */}
+        <form id="my-form" onSubmit={formSumbitHandle}>
 
           <div className="grid-child"> 
             <h3>Billing Address</h3>

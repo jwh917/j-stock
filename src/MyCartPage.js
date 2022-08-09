@@ -1,4 +1,5 @@
 import React, {useState, useEffect, useContext } from "react";
+import {useHistory} from "react-router-dom";
 import { ThemeContext } from "./theme";
 import LightDarkButton from "./LightDarkButton";
 import MyCartHeader from "./MyCartHeader";
@@ -56,6 +57,8 @@ function MyCartPage() {
 
   const { theme } = useContext(ThemeContext);
 
+  const history = useHistory();
+
   const textStyle = theme ? "white" : "black"
 
   const myCartItems = myCart.map((myCartItem) => {
@@ -85,41 +88,51 @@ function MyCartPage() {
     setAddress(event.target.value)
   }
 
-    function cityInput(event){
+  function cityInput(event){
     setCity(event.target.value)
   }
 
-    function stateInput(event){
+  function stateInput(event){
     setState(event.target.value)
   }
 
-    function zipCodeInput(event){
+  function zipCodeInput(event){
     setZipCode(event.target.value)
   }
 
-    function cardNameInput(event){
+  function cardNameInput(event){
     setCardName(event.target.value)
   }
 
-    function cardNumInput(event){
+  function cardNumInput(event){
     setCardNum(event.target.value)
   }
 
-    function expMonInput(event){
+  function expMonInput(event){
     setExpMon(event.target.value)
   }
 
-      function expYrInput(event){
+  function expYrInput(event){
     setExpYr(event.target.value)
   }
 
-        function cvvInput(event){
+  function cvvInput(event){
     setCvv(event.target.value)
+  }
+
+  function afterCheckOut(myCart){
+    myCart.map((item) => {
+      return fetch(`http://localhost:3000/myCart/${item.id}`, {
+        method: "DELETE",
+      })
+        .then((r) => r.json())
+        .then((data) => console.log(data));
+    })
   }
 
 
   function formSumbitHandle(event){
-    // event.preventDefault()
+    event.preventDefault()
 
     const newCompletedOrder = {
       fullName: fullName,
@@ -137,6 +150,7 @@ function MyCartPage() {
       total: total
     }
 
+    // error or window saying which ever one isnt filled
     if(newCompletedOrder.fullName === "" || newCompletedOrder.email === "" || newCompletedOrder.email === "" || newCompletedOrder.address === "" || newCompletedOrder.city === "" || newCompletedOrder.state === "" || newCompletedOrder.zipCode === "" || newCompletedOrder.cardName === "" || newCompletedOrder.cardNum === "" || newCompletedOrder.expMon === "" || newCompletedOrder.expYr === "" || newCompletedOrder.cvv === "" || newCompletedOrder.myCart.length === 0 || newCompletedOrder.total === 0) return
 
     fetch("http://localhost:3000/completedOrders", {
@@ -149,10 +163,11 @@ function MyCartPage() {
       .then((r) => r.json())
       .then((newCompletedOrderData) => console.log(newCompletedOrderData));
 
-    // clear form
     event.target.reset()
-      // clear myCart Array
-      // return to home page and take out php action
+
+    afterCheckOut(myCart)
+
+    history.push("/")
   }
 
   return (
