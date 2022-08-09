@@ -28,7 +28,7 @@ function SneakerCarousel({handleItemClick, togglePopUp}) {
   }, []);
 
     
-  const sneakersDisplayed = sneakers.map((sneaker) => {
+  const sneakersDisplayed = sneakers.slice(0, 3).map((sneaker) => {
     return(
       <ItemCard
       key={sneaker.id}

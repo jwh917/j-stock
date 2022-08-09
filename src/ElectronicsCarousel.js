@@ -29,7 +29,7 @@ function ElectronicsCarousel({handleItemClick, togglePopUp}) {
   }, []);
 
 
-  const electronicsDisplayed = electronics.map((electronic) => {
+  const electronicsDisplayed = electronics.slice(0, 3).map((electronic) => {
     return(
       <ItemCard
       key={electronic.id}

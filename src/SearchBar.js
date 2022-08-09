@@ -4,6 +4,8 @@ import LightDarkButton from "./LightDarkButton";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
+import logo from './jStockSneakerBoxWall.png';
+
 
 
 
@@ -37,14 +39,10 @@ function SearchPage({handleCatorgeyChange, itemSearch, sortHandleHighLow, sortHa
 
                     </div>
                     <div className="col-md-8">
-                  <div className="d-flex form-inputs" style={{width: "600px", height:"50px"}}>
-                    <div style={{marginTop:"12px"}}>
-                      <i className="bi bi-search"></i>
-
-                    </div>
-
-                    <input className="form-control" type="text" placeholder="Search any item..." onChange={itemSearch}/>
-                  </div>
+                      <div className="d-flex form-inputs" style={{width: "600px", height:"50px"}}>
+      
+                        <input className="form-control" type="text" placeholder="Search any item..." onChange={itemSearch}/>
+                      </div>
                     </div>
 
                   
@@ -66,16 +64,16 @@ function SearchPage({handleCatorgeyChange, itemSearch, sortHandleHighLow, sortHa
 
                   <div className="categoryGrid">
 
-                    <div className={`badge bg-${themeColor}`} style={{ borderRadius: "5px"}}>
-                      Filter Brands
+                    {/* <div className={`badge bg-${themeColor}`} style={{ borderRadius: "5px"}}> */}
+                      {/* Filter Brands */}
+                      {/* <br></br>
                       <br></br>
-                      <br></br>
-                      <br></br>
+                      <br></br> */}
                       {/* <button >Filter Brands</button> */}
 
                       {/* Brands dropdown will match with whatever catorgey the page is in */}
                       {/* All - Jordan, Kith, Sony | Sneakers - Jordan, Nike, New Balance */}
-                      <div className="dropdown">
+                      {/* <div className="dropdown">
                         <button className="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                           Filter Brands
                         </button>
@@ -84,12 +82,12 @@ function SearchPage({handleCatorgeyChange, itemSearch, sortHandleHighLow, sortHa
                           <li className="dropdown-item">Another action</li>
                           <li className="dropdown-item">Something else here</li>
                         </ul>
-                      </div>
-                    </div>
+                      </div> */}
+                    {/* </div> */}
 
                     <div>
                       {/* j stock logo */}
-                      <img src="https://i.etsystatic.com/33329294/r/il/727f47/3627737931/il_1588xN.3627737931_eicj.jpg" alt="jordan signs"/>
+                      <img src={logo} alt="logo" style={{ height: "150px", width: "350px"}}/>
                     </div>
                     
                     <div className={`badge bg-${themeColor}`} style={{ borderRadius: "5px"}}>

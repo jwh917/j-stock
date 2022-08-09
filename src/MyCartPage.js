@@ -118,9 +118,8 @@ function MyCartPage() {
   }
 
 
-
   function formSumbitHandle(event){
-    event.preventDefault()
+    // event.preventDefault()
 
     const newCompletedOrder = {
       fullName: fullName,
@@ -150,8 +149,23 @@ function MyCartPage() {
       .then((r) => r.json())
       .then((newCompletedOrderData) => console.log(newCompletedOrderData));
 
-      // clear form
+    // clear form
+    event.target.reset()
       // clear myCart Array
+      // return to home page
+
+      
+          fetch("http://localhost:3000/myCart", {
+            method: "PATCH",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify([]),
+          })
+            .then((r) => r.json())
+            .then((data) => console.log(data));
+      
+      
 
   }
 

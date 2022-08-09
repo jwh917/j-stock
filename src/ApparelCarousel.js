@@ -28,7 +28,7 @@ function ApparelCarousel({handleItemClick, togglePopUp}) {
     
 
 
-  const apparelDisplayed = apparel.map((apparelItem) => {
+  const apparelDisplayed = apparel.slice(0, 3).map((apparelItem) => {
     return(
       <ItemCard
       key={apparelItem.id}
