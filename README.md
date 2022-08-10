@@ -53,6 +53,23 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 <!-- GETTING STARTED -->
 ## Getting Started
 
+
+    ### - Prerequisites
+
+
+      - Installation
+
+
+        - If you don't have `json-server` installed, run: `$ npm i -g json-server`.
+
+        - If you don't have a `db.json` file create one.
+
+        - If you already have it installed, run the server by: `$ json-server --watch db.json`.
+
+
+      - Clone the repo
+        - git clone https://github.com/jwh917/j-Stock
+
 ## Available Scripts
 
 In the project directory, you can run:
