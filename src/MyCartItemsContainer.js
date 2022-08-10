@@ -16,7 +16,7 @@ function MyCartItemsContainer({total, myCartItems}) {
         <div>
           {myCartItems}
           <hr></hr>
-          <p>Total <span style={{"color": textStyle}}><b>${total}</b></span></p>
+          <p>Total <span style={{"color": textStyle}}><b>${total.toLocaleString('en-US')}</b></span></p>
         </div>
       </div>
     </main>

@@ -99,7 +99,7 @@ function MyCartItemCard({myCartItem, handleDelItem}) {
           {itemSizing()}
           <br></br>
           
-          <span className="price">${buy}</span>
+          <span className="price">${buy.toLocaleString('en-US')}</span>
 
           <br></br>
 

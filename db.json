@@ -679,26 +679,6 @@
       "itemUrl": "https://images.stockx.com/images/Microsoft-Xbox-Pro-Controller-Gear-Charging-Stand-CSXBXXX1R-00PHM-Phantom-Magenta.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1627676671"
     }
   ],
-  "myCart": [
-    {
-      "item": {
-        "id": 1,
-        "category": "sneakers",
-        "name": "Jordan 11",
-        "brand": "Jordan",
-        "color": "Cool Grey",
-        "colorWay": "Medium Grey/Multi- Color/Multi-Color",
-        "buy": 211,
-        "sell": 347,
-        "price": 278,
-        "retailPrice": 225,
-        "releaseDate": "12/31/22",
-        "productDetails": "Since its debut in 2001, the Air Jordan 11 Cool Grey",
-        "itemUrl": "https://cdn.flightclub.com/1500/TEMPLATE/248952/1.jpg"
-      },
-      "size": "9.5",
-      "id": 1
-    }
-  ],
+  "myCart": [],
   "completedOrders": []
 }

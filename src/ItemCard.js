@@ -21,7 +21,7 @@ function ItemCard({items, handleItemClick, togglePopUp}) {
           <Card.Title><h3>{name}</h3></Card.Title>
           <h4>{color}</h4>
           <h6>Lowest Ask</h6>
-          <h4>${price}</h4>
+          <h4>${price.toLocaleString('en-US')}</h4>
           <p>Retail Price: ${retailPrice}</p>
         </Card.Body>
       </Card>

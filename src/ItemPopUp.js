@@ -130,11 +130,11 @@ function ItemPopUp({togglePopUp, isOpen, itemDisplayed}) {
           <div className="buySellGrid">
             <Badge className={`badge bg-${style}`} id="buySellGridBadges1" style={{"color":headerStyle}}>
               BUY: <br></br>
-              ${buy}
+              ${buy.toLocaleString('en-US')}
             </Badge>
             <Badge className={`badge bg-${style}`} id="buySellGridBadges1" style={{"color":headerStyle}}>
               SELL: <br></br> 
-              ${sell}
+              ${sell.toLocaleString('en-US')}
             </Badge>
           </div>
           <div>
@@ -153,7 +153,7 @@ function ItemPopUp({togglePopUp, isOpen, itemDisplayed}) {
           </div>
 
             <div>
-              <h4>Last Sale: ${price}</h4>
+              <h4>Last Sale: ${price.toLocaleString('en-US')}</h4>
               {showProductDetails()}
               <p>Release Date: {releaseDate}</p>
               <p>Retail Price: ${retailPrice}</p>

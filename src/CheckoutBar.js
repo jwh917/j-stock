@@ -17,7 +17,7 @@ function CheckoutBar({total}) {
         <Badge className={`badge bg-${badgeStyle}`} id="checkoutBarBadge">         
           <div>
             <h3> Delivery Cost: FREE</h3>
-            <h2> Total: ${total}</h2>
+            <h2> Total: ${total.toLocaleString('en-US')}</h2>
             <Button className="btn btn-light" id="checkoutBarButton" type="submit" form="my-form"> Checkout </Button>
           </div>
         </Badge>
