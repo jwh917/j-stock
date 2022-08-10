@@ -60,6 +60,8 @@
      - Installation
 
 
+       - Create react app: `$ npx create-react-app my-app` or `$ npm init react-app my-app`.
+       
        - If you don't have `json-server` installed, run: `$ npm i -g json-server`.
 
        - If you don't have a `db.json` file create one.
