@@ -37,7 +37,7 @@
 <!-- j-Stock DEMO -->
 ## j-Stock Demo
 
- ![j-Stock Demo](j-Stock-Demo0.gif)
+ ![j-Stock Demo0](j-Stock-Demo0.gif)
  
 
 ### Built With
@@ -80,7 +80,7 @@
   
 - j-Stock provides our users with access to the best products in the best way possible. Buy the hottest sneakers, apparel and electronics on the market. This e-commerce platform is a marketplace where user can find the products they have been looking for, exclusive and authentic. User can explore through many products, different categories such as sneakers, apparel, electronics and also popular brands. All users have the ability to view the new trending sneakers, apparel featured in ad campaigns/companys and a spotlight for the huge range of electronics from the market. Users can easily add products to their cart and checkout with a smooth transition. They will also be able to search any products they want to find by only type in a few words or brand name or even use the tabs to search by categories. Also if your eyes are sensitive to bright light there also is a dark and light mode.
 
-    - ![j-Stock Demo](j-Stock-Demo2.gif)
+    - ![j-Stock Demo2](j-Stock-Demo2.gif)
     - Two screenshots .gifs related to usage paragraph
     
     
