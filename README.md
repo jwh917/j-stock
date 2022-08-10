@@ -36,6 +36,8 @@
 
 <!-- j-Stock DEMO -->
 ## j-Stock Demo
+
+ ![j-Stock Demo](j-Stock-Demo0.gif)
  
 
 ### Built With
