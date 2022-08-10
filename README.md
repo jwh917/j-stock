@@ -54,10 +54,10 @@
 ## Getting Started
 
 
-   ### Prerequisites
+ ### Prerequisites
 
 
-     - Installation
+   ### - Installation
 
 
        - Create react app: `$ npx create-react-app my-app` or `$ npm init react-app my-app`.
@@ -67,6 +67,10 @@
        - If you don't have a `db.json` file create one.
 
        - If you already have it installed, run the server by: `$ json-server --watch db.json`.
+       
+       - Then run `$ npm start`
+        - This will run the app in the development mode. 
+          - Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 
      - Clone the repo
