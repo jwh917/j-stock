@@ -1,9 +1,12 @@
 # j-Stock
 
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+
 - j-Stock is web clone of StockX’s mobile app. j-Stock is an e-commerce platform, where users can browse many products. Users can buy authentic sneakers, apparel and electronics. The platform lets users have access to popular brands including Adidas Yeezy, Retro Jordans, Supreme apparel along with many electronics. So many products to choose from. One of the fastest ways to discover new and the hottest products on the market.
+
 
 <!-- j-Stock DEMO -->
 ## j-Stock Demo
@@ -39,10 +42,15 @@
 </details>
 
 
-
 ### Built With
-[![React][React.js]][React-url]
-
+* [![Next][Next.js]][Next-url]
+* [![React][React.js]][React-url]
+* [![Vue][Vue.js]][Vue-url]
+* [![Angular][Angular.io]][Angular-url]
+* [![Svelte][Svelte.dev]][Svelte-url]
+* [![Laravel][Laravel.com]][Laravel-url]
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* [![JQuery][JQuery.com]][JQuery-url]
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
