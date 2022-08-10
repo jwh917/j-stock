@@ -68,7 +68,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
      - Clone the repo
-       - git clone https://github.com/jwh917/j-Stock
+       - git clone https://github.com/jwh917/j-stock
 
 ## Available Scripts
 
