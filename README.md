@@ -5,6 +5,7 @@
 
 - j-Stock is web clone of StockX’s mobile app. j-Stock is an e-commerce platform, where users can browse many products. Users can buy authentic sneakers, apparel and electronics. The platform lets users have access to popular brands including Adidas Yeezy, Retro Jordans, Supreme apparel along with many electronics. So many products to choose from. One of the fastest ways to discover new and the hottest products on the market.
 
+<!-- DEMO -->
 ## j-Stock Demo
  
  
@@ -15,6 +16,9 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+        <li><a href="#demo">j-Stock Demo</a></li>
+      </ul>
+       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
