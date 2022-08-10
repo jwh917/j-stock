@@ -54,7 +54,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Getting Started
 
 
-   ### - Prerequisites
+   ### Prerequisites
 
 
      - Installation
