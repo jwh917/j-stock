@@ -6,7 +6,6 @@ import Badge from 'react-bootstrap/Badge';
 
 
 
-
 function BrandsBadges() {
 
   const { theme } = useContext(ThemeContext);
@@ -14,8 +13,6 @@ function BrandsBadges() {
   const headerStyle = theme ? "white" : "black"
 
   const badgeStyle = theme ? "secondary" : "success"
-
-  // add hover css and click css
 
   return (
     <div className="brandsBadges">

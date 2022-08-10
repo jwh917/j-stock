@@ -14,7 +14,6 @@ function CategoryBadges() {
 
   const badgeStyle = theme ? "secondary" : "success"
 
-  // add hover css and click css
 
   return (
     <div className="categoryBadges">

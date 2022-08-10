@@ -1,10 +1,6 @@
 import React, {useState, useContext } from "react";
 import { ThemeContext } from "./theme";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-// import Modal from 'react-bootstrap/Modal'
-// import Tabs from 'react-bootstrap/Tabs'
-// import Tab from 'react-bootstrap/Tab'
 import Button from 'react-bootstrap/Button'
 import Badge from 'react-bootstrap/Badge';
 
@@ -14,11 +10,8 @@ function ItemPopUp({togglePopUp, isOpen, itemDisplayed}) {
   const [size, setSize] = useState("")
 
   function newSize(event){
-    // console.log(event.target.value)
     setSize(event.target.value)
   }
-
-  console.log(size)
 
 
   if(isOpen) {
@@ -44,7 +37,6 @@ function ItemPopUp({togglePopUp, isOpen, itemDisplayed}) {
       size: size,
     }
 
-    // size 7 or small (default sizes) need to be re choosen
 
     if((newCartItem.item.category === "sneakers" && newCartItem.size === "") || (newCartItem.item.category === "apparel" && newCartItem.size === "")) return
 
@@ -60,7 +52,6 @@ function ItemPopUp({togglePopUp, isOpen, itemDisplayed}) {
       .then((newCartItemData) => console.log(newCartItemData));
 
   }
-
 
 
   function showProductDetails(){
@@ -169,9 +160,8 @@ function ItemPopUp({togglePopUp, isOpen, itemDisplayed}) {
             </div>
 
             <div className="clickedItemInfo">
-              {/* Add to cart button with send post request to cart array in json file put all info from item and size if so  */}
 
-              {/* Category part of db.json was Aug. 7th, needed it for this part */}
+              {/* Category Add Aug. 7th*/}
               <h5>Size</h5>
               {itemSizing()}
               <br></br>

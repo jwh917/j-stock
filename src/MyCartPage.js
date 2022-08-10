@@ -7,25 +7,10 @@ import CheckoutBar from "./CheckoutBar";
 import MyCartItemsContainer from "./MyCartItemsContainer";
 import UserInputContainer from "./UserInputContainer";
 import MyCartItemCard from "./MyCartItemCard";
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-// import '@fortawesome/fontawesome-svg-core/styles.css'
 
 function MyCartPage() {
-
-  useEffect(() => {
-    const script = document.createElement('script');
-  
-    script.src = "https://kit.fontawesome.com/17a0ff6ff9.js";
-    script.async = true;
-  
-    document.body.appendChild(script);
-  
-    return () => {
-      document.body.removeChild(script);
-    }
-  }, []);
 
   const [myCart, setMyCart] = useState([])
 

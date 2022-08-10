@@ -160,6 +160,21 @@
   top: -70px;
 }
 
+
+/* Search Container */
+.searchContainer{
+  margin: 400px 150px; 
+  position: relative;
+  bottom: 0;
+  width:100px;
+  height:100px;
+  display:grid;
+  grid-template-columns: 8ch auto;
+  grid-row: auto auto;
+  grid-column-gap: 205px;
+  grid-row-gap: 20px;
+}
+
 #searchBarContainer{
   position: fixed;
   top: 0;
@@ -189,23 +204,7 @@
 }
 
 
-/* Search Container */
-.searchContainer{
-  margin: 400px 150px; 
-  position: relative;
-  bottom: 0;
-  width:100px;
-  height:100px;
-  display:grid;
-  grid-template-columns: 8ch auto;
-  grid-row: auto auto;
-  grid-column-gap: 205px;
-  grid-row-gap: 20px;
-}
-
-
 /* Profile Page */
-
 .profileHeader{
   text-align: center;
 }
@@ -230,8 +229,11 @@
   text-align: center;
 }
 
+.myCartItemImg{
+  width: 50px;
+  height: 50px;
+}
 
-/*My Cart User Input  */
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -254,8 +256,8 @@
   color: orange;
 }
 
-/* CHeckout Bar */
 
+/* Checkout Bar */
 #checkoutBarBadge{
   width: 100%;
   height: 180px;

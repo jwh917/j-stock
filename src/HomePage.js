@@ -59,8 +59,6 @@ function HomePage() {
         itemDisplayed={itemDisplayed}
       />}
 
-      {/* Julien H.™ */}
-
     </main> 
 
   );

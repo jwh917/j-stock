@@ -682,133 +682,23 @@
   "myCart": [
     {
       "item": {
-        "id": 2,
+        "id": 1,
         "category": "sneakers",
-        "name": "Jordan 1 Low",
+        "name": "Jordan 11",
         "brand": "Jordan",
-        "color": "Fragment x Travis Scott",
-        "colorWay": "White/Black-Royal-Sail",
-        "buy": 1139,
-        "sell": 1850,
-        "price": 1824,
-        "retailPrice": 150,
-        "releaseDate": "8/13/21",
-        "productDetails": "The Air Jordan 1 Low Fragment Design x Travis Scott nods to the original 2016 Air Jordan 1 Fragment with its simple color blocking.",
-        "itemUrl": "https://cdn.flightclub.com/1250/TEMPLATE/267414/1.jpg"
+        "color": "Cool Grey",
+        "colorWay": "Medium Grey/Multi- Color/Multi-Color",
+        "buy": 211,
+        "sell": 347,
+        "price": 278,
+        "retailPrice": 225,
+        "releaseDate": "12/31/22",
+        "productDetails": "Since its debut in 2001, the Air Jordan 11 Cool Grey",
+        "itemUrl": "https://cdn.flightclub.com/1500/TEMPLATE/248952/1.jpg"
       },
-      "size": "10.5",
+      "size": "9.5",
       "id": 1
     }
   ],
-  "completedOrders": [
-    {
-      "fullName": "Julien Henry",
-      "email": "jwh_917@yahoo.com",
-      "address": "3 Goldsmith Ave.",
-      "city": "Greenlawn",
-      "state": "NY",
-      "zipCode": "11740",
-      "cardName": "1234",
-      "cardNum": "1234",
-      "expMon": "1234",
-      "expYr": "1234",
-      "cvv": "1234",
-      "myCart": [
-        {
-          "item": {
-            "id": 1,
-            "category": "electronics",
-            "name": "Sony PS5",
-            "brand": "Sony",
-            "color": "White",
-            "buy": 658,
-            "sell": 620,
-            "price": 656,
-            "retailPrice": 500,
-            "releaseDate": "11/12/20",
-            "productDetails": "Experience next-gen gaming with the The SonyPlaystation 5 Blu-Ray Edition console.",
-            "itemUrl": "https://i5.walmartimages.com/asr/2d7d7f63-fbd3-4892-a633-f371b7c948a5.e3656c58c60bfd68e74804868cb51b55.png?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
-          },
-          "size": "",
-          "id": 1
-        },
-        {
-          "item": {
-            "id": 15,
-            "category": "apparel",
-            "name": "KAWS x Uniglo x Sesame Street Sweatshirt",
-            "brand": "KAWS",
-            "color": "Natural",
-            "colorWay": "Natural",
-            "buy": 128,
-            "sell": 63,
-            "price": 100,
-            "retailPrice": 30,
-            "releaseDate": "11/19/18",
-            "productDetails": "",
-            "itemUrl": "https://images.stockx.com/images/KAWS-x-Uniqlo-x-Sesame-Street-Group-2-Sweatshirt-US-Sizing-Natural.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1614779945"
-          },
-          "size": "Medium",
-          "id": 2
-        },
-        {
-          "item": {
-            "id": 5,
-            "category": "sneakers",
-            "name": "Jordan 1 Retro High",
-            "brand": "Jordan",
-            "color": "Off-White University Blue",
-            "colorWay": "White/Dark Powder Blue-Cone",
-            "buy": 1672,
-            "sell": 2675,
-            "price": 2418,
-            "retailPrice": 190,
-            "releaseDate": "6/23/18",
-            "productDetails": "Time for some Tobacco Road vibes with these Jordan 1 Retro Off-Whites. Also known as the UNC editions, these Jordan 1s are the third colorway designed by Virgil Abloh.",
-            "itemUrl": "https://cdn.flightclub.com/1250/TEMPLATE/804093/1.jpg"
-          },
-          "size": "10",
-          "id": 4
-        }
-      ],
-      "total": 2458,
-      "id": 1
-    },
-    {
-      "fullName": "Julien Henry",
-      "email": "jwh_917@yahoo.com",
-      "address": "3 Goldsmith Ave.",
-      "city": "Greenlawn",
-      "state": "NY",
-      "zipCode": "11740",
-      "cardName": "1234",
-      "cardNum": "1234",
-      "expMon": "1234",
-      "expYr": "1234",
-      "cvv": "1234",
-      "myCart": [
-        {
-          "item": {
-            "id": 2,
-            "category": "sneakers",
-            "name": "Jordan 1 Low",
-            "brand": "Jordan",
-            "color": "Fragment x Travis Scott",
-            "colorWay": "White/Black-Royal-Sail",
-            "buy": 1139,
-            "sell": 1850,
-            "price": 1824,
-            "retailPrice": 150,
-            "releaseDate": "8/13/21",
-            "productDetails": "The Air Jordan 1 Low Fragment Design x Travis Scott nods to the original 2016 Air Jordan 1 Fragment with its simple color blocking.",
-            "itemUrl": "https://cdn.flightclub.com/1250/TEMPLATE/267414/1.jpg"
-          },
-          "size": "10.5",
-          "id": 1
-        }
-      ],
-      "total": 1139,
-      "id": 2
-    }
-  ]
+  "completedOrders": []
 }

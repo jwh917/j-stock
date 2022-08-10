@@ -50,7 +50,6 @@ function SearchBar({handleCatorgeyChange, itemSearch, sortHandleHighLow, sortHan
                   <br></br>
                   <br></br>
                     
-                    {/* Personal divs and hover css */}
                     <div className="tabsContainer">
 
                       <Tabs id="controlled-tab-example" activeKey={key} onSelect={knowKey} className="mb-3">
@@ -86,7 +85,6 @@ function SearchBar({handleCatorgeyChange, itemSearch, sortHandleHighLow, sortHan
                     {/* </div> */}
 
                     <div>
-                      {/* j stock logo */}
                       <img src={logo} alt="logo" id="jStockLogo"/>
                     </div>
                     

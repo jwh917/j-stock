@@ -3,11 +3,6 @@ import { ThemeContext } from "./theme";
 import ItemCard from "./ItemCard";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// sneaks
-// import Carousel from 'react-bootstrap/Carousel';
-// import Carousel from 'react-scrolling-carousel';
-// import ReactSwipe from 'swipe-js-iso';
-
 import Stack from 'react-bootstrap/Stack';
 
 
@@ -52,8 +47,6 @@ function ElectronicsCarousel({handleItemClick, togglePopUp}) {
         {electronicsDisplayed}
 
        </Stack>
-
-      {/* <Carousel/> */}
 
       <br></br>
       <br></br>

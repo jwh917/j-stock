@@ -94,85 +94,30 @@ function SearchPage() {
 
   return (
     <main>
-      <SearchBar handleCatorgeyChange={handleCatorgeyChange} itemSearch={itemSearch} sortHandleHighLow={sortHandleHighLow} sortHandleLowHigh={sortHandleLowHigh} sortHighLow={sortHighLow} sortLowHigh={sortLowHigh}/>
+      <SearchBar 
+      handleCatorgeyChange={handleCatorgeyChange} 
+      itemSearch={itemSearch} 
+      sortHandleHighLow={sortHandleHighLow} 
+      sortHandleLowHigh={sortHandleLowHigh} 
+      sortHighLow={sortHighLow} 
+      sortLowHigh={sortLowHigh}
+      />
 
-      <SearchContainer catorgey={catorgey} sneakers={sneakers} apparel={apparel} electronics={electronics} allItems={allItems} handleItemClick={handleItemClick} togglePopUp={togglePopUp} searchInput={searchInput} helpSort={helpSort} sortHighLow={sortHighLow} sortLowHigh={sortLowHigh}/>
+      <SearchContainer 
+      catorgey={catorgey} 
+      sneakers={sneakers} 
+      apparel={apparel} 
+      electronics={electronics} 
+      allItems={allItems} 
+      handleItemClick={handleItemClick} 
+      togglePopUp={togglePopUp} 
+      searchInput={searchInput} 
+      helpSort={helpSort} 
+      sortHighLow={sortHighLow} 
+      sortLowHigh={sortLowHigh}
+      />
      
 
-      {/* <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br> */}
 
       {isOpen && <ItemPopUp
         togglePopUp={togglePopUp}

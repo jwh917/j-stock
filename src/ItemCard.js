@@ -15,8 +15,6 @@ function ItemCard({items, handleItemClick, togglePopUp}) {
   return (
     <div >
       
-  {/* <Carousel}/> */}
-
       <Card style={{ width: '15rem', height: "27rem"}} onClick={clickedItem}>
         <Card.Img src={itemUrl} />
         <Card.Body>

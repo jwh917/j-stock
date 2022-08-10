@@ -3,7 +3,6 @@ import { ThemeContext } from "./theme";
 import LightDarkButton from "./LightDarkButton";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-//make all sections functional and maybe animation for icons
 
 function ProfilePage() {
 

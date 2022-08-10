@@ -3,11 +3,8 @@ import { ThemeContext } from "./theme";
 import ItemCard from "./ItemCard";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import Carousel from 'react-bootstrap/Carousel';
-// import Carousel from 'react-scrolling-carousel';
-// import ReactSwipe from 'swipe-js-iso';
-
 import Stack from 'react-bootstrap/Stack';
+
 
 
 function ApparelCarousel({handleItemClick, togglePopUp}) {
@@ -26,8 +23,6 @@ function ApparelCarousel({handleItemClick, togglePopUp}) {
   }, []);
 
     
-
-
   const apparelDisplayed = apparel.slice(0, 3).map((apparelItem) => {
     return(
       <ItemCard
@@ -39,7 +34,6 @@ function ApparelCarousel({handleItemClick, togglePopUp}) {
     )
   })
 
-  
 
   return (
     <div className="itemsCarousel">
@@ -51,10 +45,6 @@ function ApparelCarousel({handleItemClick, togglePopUp}) {
         {apparelDisplayed}
 
        </Stack>
-
-      {/* <Carousel/> */}
-
-
   </div>
   );
 }

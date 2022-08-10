@@ -3,10 +3,6 @@ import { ThemeContext } from "./theme";
 import ItemCard from "./ItemCard";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import Carousel from 'react-bootstrap/Carousel';
-// import Carousel from 'react-scrolling-carousel';
-// import ReactSwipe from 'swipe-js-iso';
-
 import Stack from 'react-bootstrap/Stack';
 
 
@@ -49,9 +45,6 @@ function SneakerCarousel({handleItemClick, togglePopUp}) {
       </Stack>
        <br></br>
        <br></br>
-
-
-      {/* <Carousel/> */}
 
 
   </div>

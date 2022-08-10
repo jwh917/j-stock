@@ -7,7 +7,6 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function AdsCarousel() {
   
-
   return (
     <div className="adsCarousel">
 

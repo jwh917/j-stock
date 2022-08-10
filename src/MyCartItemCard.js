@@ -24,8 +24,6 @@ function MyCartItemCard({myCartItem, handleDelItem}) {
   }
 
 
-
-
   function handleDeleteClick() {
     
     fetch(`http://localhost:3000/myCart/${id}`, {
@@ -93,7 +91,7 @@ function MyCartItemCard({myCartItem, handleDelItem}) {
       <div>
 
         <div>
-          <img src={itemUrl} alt="my cart item " style={{width:"50px", height:"50px"}}/>
+          <img src={itemUrl} alt="my cart item" className="myCartItemImg" />
           <br></br>
           {name}
           <p>{color}</p>
