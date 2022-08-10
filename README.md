@@ -57,7 +57,7 @@
   ### Prerequisites
 
 
-      Installation
+     Installation
 
 
        - Create react app: `$ npx create-react-app my-app` or `$ npm init react-app my-app`.
