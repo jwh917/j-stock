@@ -106,14 +106,15 @@
 
    <!-- ACKNOWLEDGMENTS -->
    ## Acknowledgments
-    - [Stock X](https://www.youtube.com/c/DroneSnap)
-    - [FlightClub](https://freefrontend.com/)
-    - [Goat](https://www.codegrepper.com)
-    - [Walmart](https://www.codegrepper.com)
-      -Json data 
+    - [Stock X](https://stockx.com/)
+    - [FlightClub](https://www.flightclub.com/)
+    - [Goat](https://www.goat.com/)
+    - [Walmart](https://www.walmart.com/)
+      - For the json data 
     
-    - [Font awesome](https://weatherdbi.herokuapp.com/documentation/v1#:~:text=503)
-      -Icons
+    - [Font awesome](https://fontawesome.com/)
+      - For myCart page icons
+
 
 
 
