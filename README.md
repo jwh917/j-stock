@@ -103,7 +103,6 @@
    ## Blog
    [j-Stock Blog](https://medium.com/@jwh_917/j-stock-a-react-ecommerce-web-app-60ba4c5a7bc8)
 
-      - Link to Blog
 
    <!-- ACKNOWLEDGMENTS -->
    ## Acknowledgments
