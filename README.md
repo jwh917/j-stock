@@ -5,7 +5,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about">About</a>
       <ul>
         <li><a href="#j-stock-demo">j-Stock Demo</a></li>
       </ul>
@@ -28,15 +28,14 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
-
+## About
 
 - j-Stock is web clone of StockX’s mobile app. j-Stock is an e-commerce platform, where users can browse many products. Users can buy authentic sneakers, apparel and electronics. The platform lets users have access to popular brands including Adidas Yeezy, Retro Jordans, Supreme apparel along with many electronics. So many products to choose from. One of the fastest ways to discover new and the hottest products on the market.
 
 
 <!-- j-Stock DEMO -->
-
- ![j-Stock Demo0](j-Stock-Demo0.gif)
+## j-Stock Demo
+ ![j-Stock Demo0-1](j-Stock-Demo0-1.gif)
  
 
 ### Built With
@@ -81,7 +80,7 @@
 
     
     - ![j-Stock Demo1-1](j-Stock-Demo1-1.gif)
-    - ![j-Stock Demo2](j-Stock-Demo2.gif)
+    - ![j-Stock Demo2-1](j-Stock-Demo2-1.gif)
  
     
     
@@ -107,6 +106,15 @@
 
    <!-- ACKNOWLEDGMENTS -->
    ## Acknowledgments
+    - [Stock X](https://www.youtube.com/c/DroneSnap)
+    - [FlightClub](https://freefrontend.com/)
+    - [Goat](https://www.codegrepper.com)
+    - [Walmart](https://www.codegrepper.com)
+      -Json data 
+    
+    - [Font awesome](https://weatherdbi.herokuapp.com/documentation/v1#:~:text=503)
+      -Icons
+
 
 
 
